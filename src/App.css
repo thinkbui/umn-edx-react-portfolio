@@ -1,38 +1,169 @@
-.App {
+header {
+  padding-top: var(--edge);
+  margin-bottom: var(--spacing);
+  padding-left: var(--edge);
+  padding-right: var(--edge);
+  background-color: var(--maroon);
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+header h1 {
+  color: var(--gold);
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+nav {
+  padding-bottom: 1px;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  margin-left: var(--edge);
+}
+
+nav li a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: background-color 1s ease, color 0.5s ease;
+}
+
+nav li a:hover {
+  color: var(--maroon);
+  background-color: var(--gold);
+}
+
+.heading {
+  border-bottom: 3px solid var(--maroon);
+  margin-bottom: var(--edge);
+}
+
+article {
+  margin-bottom: var(--spacing);
+  margin-left: var(--edge);
+  margin-right: var(--edge);
+}
+
+article h2 {
+  display: inline;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+section {
+  margin-bottom: var(--spacing);
+  margin-left: var(--edge);
+  margin-right: var(--edge);
+}
+
+section h2 {
+  display: inline;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#code-examples .content a {
+  width: 240px;
+  height: 220px;
+  flex-grow: 1;
+  display: block;
+  background-image: url("../public/assets/images/code.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--gold);
+}
+
+#code-examples .content a:first-child {
+  height: 300px;
+  width: 100%;
+  flex-grow: 4;
+}
+
+#code-examples .content a:first-child h3 {
+  font-size: 60px;
+}
+
+#code-examples .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#code-examples a{
+  text-decoration: none;
+}
+
+.example-code {
+  margin: var(--spacing);
+}
+
+.example-code h3 {
+  font-size: 30px;
+  background-color: var(--maroon);
+  color: var(--gold);
+  position: relative;
+}
+
+#contact ul {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#contact li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  color: var(--maroon);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#contact li a {
+  color: var(--maroon);
+  text-decoration: none;
+  transition: background-color 1s ease, color 0.5s ease;
+}
+
+#contact li a:hover{
+  background-color: var(--maroon);
+  color: var(--gold);
+}
+
+footer {
+  color: var(--maroon);
+  background-color: var(--gold);
+  text-align: center;
+  padding-left: var(--edge);
+  padding-right: var(--edge);
+}
+
+@media screen and (max-width: 992px) {
+  #code-examples .content a:first-child {
+    flex-basis: 0 1 auto;
+  }
+
+  nav ul {
+    font-size: 30px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  nav ul, #contact ul {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  nav li, #contact li {
+    display: block;
+    margin: 4px;
+    width: 100%;
   }
 }
