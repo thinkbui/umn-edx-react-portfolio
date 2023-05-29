@@ -6,7 +6,7 @@ function Contact(props) {
       </div>
       <div>
         <div className="content">
-          <ul>
+          <ul className="profile_links">
             {props.contact_options.map((option) => <li><a href={option.href}>{option.title}</a></li>)}
           </ul>
         </div>

@@ -1,6 +1,10 @@
 function Footer(props) {
   return (
-    <footer>{props.footer_text}</footer>
+    <footer>
+      <p>
+        {props.footer_text}
+      </p>
+    </footer>
   );
 }
   
