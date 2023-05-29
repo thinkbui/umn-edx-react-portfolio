@@ -1,4 +1,12 @@
-export const headshot_src = "./assets/images/headshot.jpeg";
+import headshot from "./../img/Header/headshot.jpeg";
+import example_list_live_events_img from "./../img/Main/CodeExamples/live-events-api.png";
+import example_list_weather_dashboard_img from "./../img/Main/CodeExamples/weather-dashboard.png";
+import example_list_workday_scheduler_img from "./../img/Main/CodeExamples/workday-scheduler.png";
+import example_list_timed_quiz_img from "./../img/Main/CodeExamples/timed-quiz.png";
+import example_list_password_generator_img from "./../img/Main/CodeExamples/password-generator.png";
+import example_list_refactor_challenge_img from "./../img/Main/CodeExamples/refactor-challenge.png";
+
+export const headshot_src = headshot;
 
 export const header_name = "Ian Bui";
 
@@ -10,32 +18,32 @@ export const examples_list = [
   {
     "title": "Live Events API (Group Project)",
     "link": "https://github.com/JacobDNelsonStone/live-music-search-ticketmaster-api",
-    "image": 'assets/images/live-events-api.png'
+    "image": example_list_live_events_img
   },
   {
     "title": "Weather Dashboard",
     "link": "https://github.com/thinkbui/umn-edx-weather-dashboard",
-    "image": 'assets/images/weather-dashboard.png'
+    "image": example_list_weather_dashboard_img
   },
   {
     "title": "Workday Scheduler",
     "link": "https://github.com/thinkbui/umn-edx-work-day-scheduler",
-    "image": 'assets/images/workday-scheduler.png'
+    "image": example_list_workday_scheduler_img
   },
   {
     "title": "Timed Quiz",
     "link": "https://github.com/thinkbui/umn-edx-timed-quiz",
-    "image": 'assets/images/timed-quiz.png'
+    "image": example_list_timed_quiz_img
   },
   {
     "title": "Password Generator",
     "link": "https://github.com/thinkbui/umn-edx-password-generator",
-    "image": 'assets/images/password-generator.png'
+    "image": example_list_password_generator_img
   },
   {
     "title": "Refactor Challenge",
     "link": "https://github.com/thinkbui/umn-edx-module-1-challenge-code-refactor",
-    "image": 'assets/images/refactor-challenge.png'
+    "image": example_list_refactor_challenge_img
   },
 ];
 
