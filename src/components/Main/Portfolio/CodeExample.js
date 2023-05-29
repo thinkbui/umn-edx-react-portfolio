@@ -16,7 +16,7 @@ function CodeExample(props) {
         className="example_deployed_link"
         target="_blank"
       >
-        Deployed Location
+        🚀 Deployed App
       </a>
     </div>
   );
