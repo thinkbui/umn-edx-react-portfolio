@@ -2,7 +2,7 @@ import CodeExample from './Portfolio/CodeExample'
 
 function Portfolio(props) {
   return (
-    <section id="code-examples">
+    <section id="portfolio">
       <div className="heading">
         <h2>{props.tab_name}</h2>
       </div>

@@ -71,7 +71,7 @@ section h2 {
   font-weight: bolder;
 }
 
-#code-examples .content a {
+#portfolio .content a {
   width: 240px;
   height: 220px;
   flex-grow: 1;
@@ -82,17 +82,17 @@ section h2 {
   background-color: var(--gold);
 }
 
-#code-examples .content a:first-child {
+#portfolio .content a:first-child {
   height: 300px;
   width: 100%;
   flex-grow: 4;
 }
 
-#code-examples .content a:first-child h3 {
+#portfolio .content a:first-child h3 {
   font-size: 60px;
 }
 
-#code-examples .content {
+#portfolio .content {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -100,7 +100,7 @@ section h2 {
   gap: 20px;
 }
 
-#code-examples a{
+#portfolio a{
   text-decoration: none;
 }
 
@@ -147,7 +147,7 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  #code-examples .content a:first-child {
+  #portfolio .content a:first-child {
     flex-basis: 0 1 auto;
   }
 
