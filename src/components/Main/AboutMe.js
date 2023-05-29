@@ -5,6 +5,7 @@ function AboutMe(props) {
         <h2>{props.tab_name}</h2>
       </div>
       <div className="content">
+        <img src={props.about_me_headshot_src} />
         {props.about_me_bio.map((paragraph) => <p>{paragraph}</p>)}
       </div>
     </article>

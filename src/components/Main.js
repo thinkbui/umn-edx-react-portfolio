@@ -8,6 +8,7 @@ function Main(props) {
     <main>
       { props.mainTab === "about-me" &&
         <AboutMe
+          about_me_headshot_src={props.about_me_headshot_src}
           about_me_bio={props.about_me_bio}
           tab_name={props.tab_names.about_me}
         />

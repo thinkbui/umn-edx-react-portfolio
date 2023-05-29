@@ -1,4 +1,5 @@
 import headshot from "./../img/Header/headshot.jpeg";
+import about_me_headshot from "./../img/Main/AboutMe/headshot.jpeg";
 import example_list_live_events_img from "./../img/Main/Portfolio/live-events-api.png";
 import example_list_weather_dashboard_img from "./../img/Main/Portfolio/weather-dashboard.png";
 import example_list_workday_scheduler_img from "./../img/Main/Portfolio/workday-scheduler.png";
@@ -16,6 +17,8 @@ export const tab_names = {
   "contact": "Contact",
   "resume": "Resume"
 }
+
+export const about_me_headshot_src = about_me_headshot;
 
 export const about_me_bio = [
   "I am a web developer based in the Twin Cities area in Minnesota.  Although my professional experience has been in Ruby on Rails, I have knowledge in the MERN Stack and can easily pick up new technologies.",
