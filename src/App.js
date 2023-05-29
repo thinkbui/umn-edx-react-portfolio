@@ -27,10 +27,10 @@ function App() {
         about_me_headshot_src={about_me_headshot_src}
         about_me_bio={about_me_bio}
         examples_list={examples_list}
-        contact_options={contact_options}
         resume_content={resume_content}
       />
       <Footer
+        contact_options={contact_options}
         footer_text={footer_text}
       />
     </>
