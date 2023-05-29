@@ -1,8 +1,6 @@
 import { useState } from "react"
 import Header from "./components/Header"
-import AboutMe from "./components/AboutMe"
-import CodeExamples from "./components/CodeExamples";
-import Contact from "./components/Contact"
+import Main from "./components/Main"
 import Footer from "./components/Footer"
 import logo from './logo.svg';
 import './App.css';
@@ -18,11 +16,7 @@ function App() {
   return (
     <>
       <Header switchTab={switchTab}/>
-      <main>
-        { mainTab === "about-me" && <AboutMe /> }
-        { mainTab == "code-examples" && <CodeExamples /> }
-        { mainTab == "contact" && <Contact /> }
-      </main>
+      <Main mainTab={mainTab}/>
       <Footer />
     </>
  );
