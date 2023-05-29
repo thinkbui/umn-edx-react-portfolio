@@ -2,6 +2,7 @@ import { useState } from "react"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
+import { examples_list } from "./constants/Constants"
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <Header switchTab={switchTab}/>
-      <Main mainTab={mainTab}/>
+      <Main mainTab={mainTab} examples_list={examples_list} />
       <Footer />
     </>
  );
