@@ -40,16 +40,26 @@ function Contact(props) {
       <div>
         <div className="content">
           <form>
-            <label>Name:</label>
-            <input type="text" id="form_name" name="name" onBlur={() => name_presence()}></input>
-            <span className="form_warn">{namePresence ? "" : "Required"}</span>
-
-            <label>Email:</label>
-            <input type="text" id="form_email" name="email" onBlur={() => email_presence()}></input>
-            <span className="form_warn">{emailPresence ? "" : "Required"}</span>
-
-            <label>Message:</label>
-            <input type=""></input>
+            <div>
+              <label for="name">Name:</label>
+            </div>
+            <div>
+              <input type="text" id="form_name" name="name" onBlur={() => name_presence()}></input>
+              <span className="form_warn">{namePresence ? "" : "Required"}</span>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+            </div>
+            <div>
+              <input type="text" id="form_email" name="email" onBlur={() => email_presence()}></input>
+              <span className="form_warn">{emailPresence ? "" : "Required"}</span>
+            </div>
+            <div>
+              <label>Message:</label>
+            </div>
+            <div>
+              <input type="text" id="form_message" name="message"></input>
+            </div>
           </form>
         </div>
       </div>
