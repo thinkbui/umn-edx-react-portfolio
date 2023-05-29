@@ -86,4 +86,9 @@ export const resume_content = [
   "My resume is not currently available at this location.  Please visit my LinkedIn profile in the meantime.",
 ]
 
+export const resume_link = {
+  "link": "https://www.sec.gov/jobs/sample-resume/sample-resume.pdf",
+  "text": "Placeholder Resume",
+};
+
 export const footer_text = "Ian Bui 2023";

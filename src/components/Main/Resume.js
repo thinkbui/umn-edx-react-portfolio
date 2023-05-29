@@ -5,7 +5,12 @@ function Resume(props) {
         <h2>{props.tab_name}</h2>
       </div>
       <div className="content">
-        {props.resume_content.map((paragraph) => <p>{paragraph}</p>)}
+        <div className="resume_content">
+          {props.resume_content.map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+        <div className="resume_link">
+          <a href={props.resume_link.link} target="_blank">{props.resume_link.text}</a>
+        </div>
       </div>
     </section>
   );

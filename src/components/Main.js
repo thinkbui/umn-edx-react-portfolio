@@ -27,6 +27,7 @@ function Main(props) {
       { props.mainTab === "resume" &&
         <Resume
           resume_content={props.resume_content}
+          resume_link={props.resume_link}
           tab_name={props.tab_names.resume}
         />
       }
