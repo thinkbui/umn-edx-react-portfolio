@@ -2,7 +2,7 @@ import { useState } from "react"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
-import { examples_list } from "./constants/Constants"
+import { headshot_src, header_name, about_me_bio, examples_list, contact_options, footer_text } from "./constants/Constants"
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,9 +16,20 @@ function App() {
 
   return (
     <>
-      <Header switchTab={switchTab}/>
-      <Main mainTab={mainTab} examples_list={examples_list} />
-      <Footer />
+      <Header
+        switchTab={switchTab}
+        headshot_src={headshot_src}
+        header_name={header_name}
+      />
+      <Main
+        mainTab={mainTab}
+        about_me_bio={about_me_bio}
+        examples_list={examples_list}
+        contact_options={contact_options}
+      />
+      <Footer
+        footer_text={footer_text}
+      />
     </>
  );
 }

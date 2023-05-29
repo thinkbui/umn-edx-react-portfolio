@@ -1,8 +1,8 @@
 function Header(props) {
   return (
     <header>
-      <img src="./assets/images/headshot.jpeg" />
-      <h1>Ian Bui</h1>
+      <img src={props.headshot_src} />
+      <h1>{props.header_name}</h1>
       <nav>
         <ul>
           <li><a onClick={() => props.switchTab("about-me")}>About Me</a></li>

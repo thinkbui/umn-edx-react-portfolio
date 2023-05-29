@@ -1,8 +1,6 @@
 function Footer(props) {
   return (
-    <footer>
-      Ian Bui 2023
-    </footer>
+    <footer>{props.footer_text}</footer>
   );
 }
   
