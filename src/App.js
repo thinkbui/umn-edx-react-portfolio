@@ -1,5 +1,7 @@
 import { useState } from "react"
 import AboutMe from "./components/AboutMe"
+import CodeExamples from "./components/CodeExamples";
+import Contact from "./components/Contact"
 import logo from './logo.svg';
 import './App.css';
 
@@ -26,73 +28,9 @@ function App() {
       </header>
 
       <main>
-        { mainTab === "about-me" &&
-          <AboutMe />
-        }
-        { mainTab == "code-examples" &&
-          <section id="code-examples">
-            <div className="heading">
-              <h2>Code Examples</h2>
-            </div>
-            <div className="content">
-              <a href="https://github.com/JacobDNelsonStone/live-music-search-ticketmaster-api" style={{backgroundImage: "url('assets/images/live-events-api.png')"}}>
-                <div className="example-code">
-                  <h3>Live Events API (Group Project)</h3>
-                </div>
-              </a>
-              <a href="https://github.com/thinkbui/umn-edx-weather-dashboard" style={{backgroundImage: "url('assets/images/weather-dashboard.png')"}}>
-                <div className="example-code">
-                  <h3>Weather Dashboard</h3>
-                </div>
-              </a>
-              <a href="https://github.com/thinkbui/umn-edx-work-day-scheduler" style={{backgroundImage: "url('assets/images/workday-scheduler.png')"}}>
-                <div className="example-code">
-                  <h3>Workday Scheduler</h3>
-                </div>
-              </a>
-              <a href="https://github.com/thinkbui/umn-edx-timed-quiz" style={{backgroundImage: "url('assets/images/timed-quiz.png')"}}>
-                <div className="example-code">
-                  <h3>Timed Quiz</h3>
-                </div>
-              </a>
-              <a href="https://github.com/thinkbui/umn-edx-password-generator" style={{backgroundImage: "url('assets/images/password-generator.png')"}}>
-                <div className="example-code">
-                  <h3>Password Generator</h3>
-                </div>
-              </a>
-              <a href="https://github.com/thinkbui/umn-edx-module-1-challenge-code-refactor" style={{backgroundImage: "url('assets/images/refactor-challenge.png')"}}>
-                <div className="example-code">
-                  <h3>Refactor Challenge</h3>
-                </div>
-              </a>
-            </div>
-          </section>
-        }
-        { mainTab == "contact" &&
-          <section id="contact">
-          <div className="heading">
-            <h2>Contact</h2>
-          </div>
-          <div>
-            <div className="content">
-              <ul>
-                <li>
-                  <a href="tel:5555555555">555-555-5555</a>
-                </li>
-                <li>
-                  <a href="mailto:admin@example.com">admin@example.com</a>
-                </li>
-                <li>
-                  <a href="">LinkedIn</a>
-                </li>
-                <li>
-                  <a href="">GitHub</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-      }
+        { mainTab === "about-me" && <AboutMe /> }
+        { mainTab == "code-examples" && <CodeExamples /> }
+        { mainTab == "contact" && <Contact /> }
       </main>
 
       <footer>
