@@ -21,7 +21,6 @@ function Main(props) {
       }
       { props.mainTab === "contact" &&
         <Contact
-          contact_options={props.contact_options}
           tab_name={props.tab_names.contact}
         />
       }

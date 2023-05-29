@@ -130,11 +130,11 @@ section h2 {
   position: relative;
 }
 
-#contact ul {
+.profile_links {
   text-align: center;
 }
 
-#contact li {
+.profile_links li {
   display: inline;
   margin-left: 20px;
   margin-right: 20px;
@@ -142,13 +142,13 @@ section h2 {
   color: var(--maroon);
 }
 
-#contact li a {
+.profile_links li a {
   color: var(--maroon);
   text-decoration: none;
   transition: background-color 1s ease, color 0.5s ease;
 }
 
-#contact li a:hover{
+.profile_links li a:hover{
   background-color: var(--maroon);
   color: var(--gold);
 }
@@ -172,11 +172,11 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  nav ul, #contact ul {
+  nav ul, .profile_links {
     text-align: center;
   }
 
-  nav li, #contact li {
+  nav li, .profile_links li {
     display: block;
     margin: 4px;
     width: 100%;
