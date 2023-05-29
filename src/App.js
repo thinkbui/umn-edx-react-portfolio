@@ -1,4 +1,5 @@
 import { useState } from "react"
+import AboutMe from "./components/AboutMe"
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,23 +18,16 @@ function App() {
         <h1>Ian Bui</h1>
         <nav>
           <ul>
-            <li><a onClick={() => switchTab("about-me")} href="#about-me">About Me</a></li>
-            <li><a onClick={() => switchTab("code-examples")} href="#code-examples">Code Examples</a></li>
-            <li><a onClick={() => switchTab("contact")} href="#contact">Contact</a></li>
+            <li><a onClick={() => switchTab("about-me")}>About Me</a></li>
+            <li><a onClick={() => switchTab("code-examples")}>Code Examples</a></li>
+            <li><a onClick={() => switchTab("contact")}>Contact</a></li>
           </ul>
         </nav>
       </header>
 
       <main>
         { mainTab === "about-me" &&
-          <article id="about-me">
-            <div className="heading">
-              <h2>About Me</h2>
-            </div>
-            <div className="content">
-              <p>I am a web developer based in the Twin Cities area in Minnesota.  Although my professional experience has been in Ruby on Rails, I have knowledge in the MERN Stack and can easily pick up new technologies.</p>
-            </div>
-          </article>
+          <AboutMe />
         }
         { mainTab == "code-examples" &&
           <section id="code-examples">
