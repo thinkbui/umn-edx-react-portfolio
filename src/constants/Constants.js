@@ -1,10 +1,10 @@
 import headshot from "./../img/Header/headshot.jpeg";
-import example_list_live_events_img from "./../img/Main/CodeExamples/live-events-api.png";
-import example_list_weather_dashboard_img from "./../img/Main/CodeExamples/weather-dashboard.png";
-import example_list_workday_scheduler_img from "./../img/Main/CodeExamples/workday-scheduler.png";
-import example_list_timed_quiz_img from "./../img/Main/CodeExamples/timed-quiz.png";
-import example_list_password_generator_img from "./../img/Main/CodeExamples/password-generator.png";
-import example_list_refactor_challenge_img from "./../img/Main/CodeExamples/refactor-challenge.png";
+import example_list_live_events_img from "./../img/Main/Portfolio/live-events-api.png";
+import example_list_weather_dashboard_img from "./../img/Main/Portfolio/weather-dashboard.png";
+import example_list_workday_scheduler_img from "./../img/Main/Portfolio/workday-scheduler.png";
+import example_list_timed_quiz_img from "./../img/Main/Portfolio/timed-quiz.png";
+import example_list_password_generator_img from "./../img/Main/Portfolio/password-generator.png";
+import example_list_refactor_challenge_img from "./../img/Main/Portfolio/refactor-challenge.png";
 
 export const headshot_src = headshot;
 
