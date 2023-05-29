@@ -2,7 +2,7 @@ import { useState } from "react"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
-import { headshot_src, header_name, tab_names, about_me_bio, examples_list, contact_options, resume_content, footer_text } from "./constants/Constants"
+import { headshot_src, header_name, tab_names, about_me_headshot_src, about_me_bio, examples_list, contact_options, resume_content, footer_text } from "./constants/Constants"
 import './App.css';
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
       <Main
         mainTab={mainTab}
         tab_names={tab_names}
+        about_me_headshot_src={about_me_headshot_src}
         about_me_bio={about_me_bio}
         examples_list={examples_list}
         contact_options={contact_options}
