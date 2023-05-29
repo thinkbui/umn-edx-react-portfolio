@@ -39,16 +39,19 @@ function Contact(props) {
       </div>
       <div>
         <div className="content">
+          <div className="form_warn">
+            This form isn't currently operational.  Please contact me via LinkedIn in the meantime.
+          </div>
           <form>
             <div>
-              <label for="name">Name:</label>
+              <label>Name:</label>
             </div>
             <div>
               <input type="text" id="form_name" name="name" onBlur={() => name_presence()}></input>
               <span className="form_warn">{namePresence ? "" : "Required"}</span>
             </div>
             <div>
-              <label for="email">Email:</label>
+              <label>Email:</label>
             </div>
             <div>
               <input type="text" id="form_email" name="email" onBlur={() => email_presence()}></input>
@@ -58,7 +61,7 @@ function Contact(props) {
               <label>Message:</label>
             </div>
             <div>
-              <input type="text" id="form_message" name="message"></input>
+              <textarea id="form_message" name="message" rows="4" cols="50"></textarea>
             </div>
           </form>
         </div>
