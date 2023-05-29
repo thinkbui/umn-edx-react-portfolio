@@ -2,7 +2,7 @@ function Contact(props) {
   return (
     <section id="contact">
       <div className="heading">
-        <h2>Contact</h2>
+        <h2>{props.tab_name}</h2>
       </div>
       <div>
         <div className="content">

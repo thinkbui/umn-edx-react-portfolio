@@ -10,6 +10,13 @@ export const headshot_src = headshot;
 
 export const header_name = "Ian Bui";
 
+export const tab_names = {
+  "about_me": "About Me",
+  "portfolio": "Portfolio",
+  "contact": "Contact",
+  "resume": "Resume"
+}
+
 export const about_me_bio = [
   "I am a web developer based in the Twin Cities area in Minnesota.  Although my professional experience has been in Ruby on Rails, I have knowledge in the MERN Stack and can easily pick up new technologies.",
 ];

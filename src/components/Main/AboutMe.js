@@ -2,7 +2,7 @@ function AboutMe(props) {
   return (
     <article id="about-me">
       <div className="heading">
-        <h2>About Me</h2>
+        <h2>{props.tab_name}</h2>
       </div>
       <div className="content">
         {props.about_me_bio.map((paragraph) => <p>{paragraph}</p>)}

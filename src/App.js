@@ -2,8 +2,7 @@ import { useState } from "react"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
-import { headshot_src, header_name, about_me_bio, examples_list, contact_options, footer_text } from "./constants/Constants"
-// import headshot_src from './img/Header/headshot.jpeg';
+import { headshot_src, header_name, tab_names, about_me_bio, examples_list, contact_options, footer_text } from "./constants/Constants"
 import './App.css';
 
 function App() {
@@ -20,9 +19,11 @@ function App() {
         switchTab={switchTab}
         headshot_src={headshot_src}
         header_name={header_name}
+        tab_names={tab_names}
       />
       <Main
         mainTab={mainTab}
+        tab_names={tab_names}
         about_me_bio={about_me_bio}
         examples_list={examples_list}
         contact_options={contact_options}
