@@ -1,6 +1,6 @@
-import AboutMe from "./MainTabs/AboutMe"
-import CodeExamples from "./MainTabs/CodeExamples";
-import Contact from "./MainTabs/Contact"
+import AboutMe from "./Main/AboutMe"
+import CodeExamples from "./Main/CodeExamples";
+import Contact from "./Main/Contact"
 
 function Main(props) {
   return (
