@@ -73,4 +73,8 @@ export const contact_options = [
   },
 ];
 
+export const resume_content = [
+  "My resume is not currently available at this location.  Please visit my LinkedIn profile in the meantime.",
+]
+
 export const footer_text = "Ian Bui 2023";

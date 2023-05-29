@@ -1,6 +1,7 @@
-import AboutMe from "./Main/AboutMe"
+import AboutMe from "./Main/AboutMe";
 import Portfolio from "./Main/Portfolio";
-import Contact from "./Main/Contact"
+import Contact from "./Main/Contact";
+import Resume from "./Main/Resume";
 
 function Main(props) {
   return (
@@ -21,6 +22,12 @@ function Main(props) {
         <Contact
           contact_options={props.contact_options}
           tab_name={props.tab_names.contact}
+        />
+      }
+      { props.mainTab === "resume" &&
+        <Resume
+          resume_content={props.resume_content}
+          tab_name={props.tab_names.resume}
         />
       }
     </main>
