@@ -6,7 +6,7 @@ function Header(props) {
       <nav>
         <ul>
           <li><a onClick={() => props.switchTab("about-me")}>About Me</a></li>
-          <li><a onClick={() => props.switchTab("code-examples")}>Portfolio</a></li>
+          <li><a onClick={() => props.switchTab("portfolio")}>Portfolio</a></li>
           <li><a onClick={() => props.switchTab("contact")}>Contact</a></li>
         </ul>
       </nav>

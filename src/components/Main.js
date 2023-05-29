@@ -6,8 +6,8 @@ function Main(props) {
   return (
     <main>
       { props.mainTab === "about-me" && <AboutMe about_me_bio={props.about_me_bio} /> }
-      { props.mainTab == "code-examples" && <CodeExamples examples_list={props.examples_list} /> }
-      { props.mainTab == "contact" && <Contact contact_options={props.contact_options} /> }
+      { props.mainTab === "portfolio" && <CodeExamples examples_list={props.examples_list} /> }
+      { props.mainTab === "contact" && <Contact contact_options={props.contact_options} /> }
     </main>
   );
 }
