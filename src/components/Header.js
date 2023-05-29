@@ -20,6 +20,11 @@ function Header(props) {
               {props.tab_names.contact}
             </a>
           </li>
+          <li>
+            <a onClick={() => props.switchTab("resume")}>
+              {props.tab_names.resume}
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
