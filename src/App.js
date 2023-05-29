@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Header from "./components/Header"
 import AboutMe from "./components/AboutMe"
 import CodeExamples from "./components/CodeExamples";
 import Contact from "./components/Contact"
@@ -15,18 +16,7 @@ function App() {
 
   return (
     <>
-      <header>
-        <img src="./assets/images/headshot.jpeg" />
-        <h1>Ian Bui</h1>
-        <nav>
-          <ul>
-            <li><a onClick={() => switchTab("about-me")}>About Me</a></li>
-            <li><a onClick={() => switchTab("code-examples")}>Code Examples</a></li>
-            <li><a onClick={() => switchTab("contact")}>Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-
+      <Header switchTab={switchTab}/>
       <main>
         { mainTab === "about-me" && <AboutMe /> }
         { mainTab == "code-examples" && <CodeExamples /> }
