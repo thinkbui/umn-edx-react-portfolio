@@ -131,20 +131,13 @@ section h2 {
   position: relative;
 }
 
+.form_warn {
+  color: red;
+  font-weight: bolder;
+}
+
 .resume_content {
   margin-bottom: 10px;
-}
-
-.profile_links {
-  text-align: center;
-}
-
-.profile_links li {
-  display: inline;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  color: var(--maroon);
 }
 
 .resume_link a, .profile_links li a {
@@ -164,6 +157,18 @@ footer {
   text-align: center;
   padding-left: var(--edge);
   padding-right: var(--edge);
+}
+
+.profile_links {
+  text-align: center;
+}
+
+.profile_links li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  color: var(--maroon);
 }
 
 @media screen and (max-width: 992px) {
