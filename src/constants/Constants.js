@@ -1,14 +1,21 @@
 import headshot from "./../img/Header/headshot.jpeg";
-import example_list_live_events_img from "./../img/Main/CodeExamples/live-events-api.png";
-import example_list_weather_dashboard_img from "./../img/Main/CodeExamples/weather-dashboard.png";
-import example_list_workday_scheduler_img from "./../img/Main/CodeExamples/workday-scheduler.png";
-import example_list_timed_quiz_img from "./../img/Main/CodeExamples/timed-quiz.png";
-import example_list_password_generator_img from "./../img/Main/CodeExamples/password-generator.png";
-import example_list_refactor_challenge_img from "./../img/Main/CodeExamples/refactor-challenge.png";
+import example_list_live_events_img from "./../img/Main/Portfolio/live-events-api.png";
+import example_list_weather_dashboard_img from "./../img/Main/Portfolio/weather-dashboard.png";
+import example_list_workday_scheduler_img from "./../img/Main/Portfolio/workday-scheduler.png";
+import example_list_timed_quiz_img from "./../img/Main/Portfolio/timed-quiz.png";
+import example_list_password_generator_img from "./../img/Main/Portfolio/password-generator.png";
+import example_list_refactor_challenge_img from "./../img/Main/Portfolio/refactor-challenge.png";
 
 export const headshot_src = headshot;
 
 export const header_name = "Ian Bui";
+
+export const tab_names = {
+  "about_me": "About Me",
+  "portfolio": "Portfolio",
+  "contact": "Contact",
+  "resume": "Resume"
+}
 
 export const about_me_bio = [
   "I am a web developer based in the Twin Cities area in Minnesota.  Although my professional experience has been in Ruby on Rails, I have knowledge in the MERN Stack and can easily pick up new technologies.",
@@ -65,5 +72,9 @@ export const contact_options = [
     "href": ""
   },
 ];
+
+export const resume_content = [
+  "My resume is not currently available at this location.  Please visit my LinkedIn profile in the meantime.",
+]
 
 export const footer_text = "Ian Bui 2023";

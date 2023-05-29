@@ -1,4 +1,4 @@
-function Example(props) {
+function CodeExample(props) {
   return (
     <a href={props.example.link} style={{backgroundImage: `url(${props.example.image})`}}>
       <div className="example-code">
@@ -8,4 +8,4 @@ function Example(props) {
   );
 }
   
-export default Example;
+export default CodeExample;
