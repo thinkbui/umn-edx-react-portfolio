@@ -25,32 +25,38 @@ export const examples_list = [
   {
     "title": "Live Events API (Group Project)",
     "link": "https://github.com/JacobDNelsonStone/live-music-search-ticketmaster-api",
-    "image": example_list_live_events_img
+    "image": example_list_live_events_img,
+    "deployed_link": "https://jacobdnelsonstone.github.io/live-music-search-ticketmaster-api/",
   },
   {
     "title": "Weather Dashboard",
     "link": "https://github.com/thinkbui/umn-edx-weather-dashboard",
-    "image": example_list_weather_dashboard_img
+    "image": example_list_weather_dashboard_img,
+    "deployed_link": "https://thinkbui.github.io/umn-edx-weather-dashboard/",
   },
   {
     "title": "Workday Scheduler",
     "link": "https://github.com/thinkbui/umn-edx-work-day-scheduler",
-    "image": example_list_workday_scheduler_img
+    "image": example_list_workday_scheduler_img,
+    "deployed_link": "https://thinkbui.github.io/umn-edx-work-day-scheduler/",
   },
   {
     "title": "Timed Quiz",
     "link": "https://github.com/thinkbui/umn-edx-timed-quiz",
-    "image": example_list_timed_quiz_img
+    "image": example_list_timed_quiz_img,
+    "deployed_link": "https://thinkbui.github.io/umn-edx-timed-quiz/",
   },
   {
     "title": "Password Generator",
     "link": "https://github.com/thinkbui/umn-edx-password-generator",
-    "image": example_list_password_generator_img
+    "image": example_list_password_generator_img,
+    "deployed_link": "https://thinkbui.github.io/umn-edx-password-generator/",
   },
   {
     "title": "Refactor Challenge",
     "link": "https://github.com/thinkbui/umn-edx-module-1-challenge-code-refactor",
-    "image": example_list_refactor_challenge_img
+    "image": example_list_refactor_challenge_img,
+    "deployed_link": "https://thinkbui.github.io/umn-edx-module-1-challenge-code-refactor/",
   },
 ];
 
