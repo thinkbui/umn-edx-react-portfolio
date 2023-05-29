@@ -1,6 +1,6 @@
 import Example from './CodeExamples/Example'
 
-function CodeExamples(props) {
+function Portfolio(props) {
   return (
     <section id="code-examples">
       <div className="heading">
@@ -13,4 +13,4 @@ function CodeExamples(props) {
   );
 }
   
-export default CodeExamples;
+export default Portfolio;
