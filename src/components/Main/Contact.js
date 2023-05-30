@@ -4,6 +4,7 @@ function Contact(props) {
   const [ namePresence, setNamePresence ] = useState(true);
   const [ emailPresence, setEmailPresence ] = useState(true);
   const [ emailValid, setEmailValid ] = useState(true);
+  const [ messagePresence, setMessagePresence ] = useState(true);
 
   function name_presence() {
     const name_value = document.getElementById("form_name").value
@@ -25,6 +26,11 @@ function Contact(props) {
     setEmailValid(/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/i.test(email_value));
   }
 
+  function message_presence() {
+    const message_value = document.getElementById("form_message").value
+    setMessagePresence(!!message_value);
+  }
+
   function formSubmitHandler(event) {
     event.preventDefault();
     console.log("submit");
@@ -43,23 +49,24 @@ function Contact(props) {
           <form onSubmit={formSubmitHandler}>
             <div>
               <label>Name:</label>
-            </div>
-            <div>
-              <input type="text" id="form_name" name="name" onBlur={() => name_presence()}></input>
               <span className="form_warn">{namePresence ? "" : "Required"}</span>
             </div>
             <div>
-              <label>Email:</label>
+              <input type="text" id="form_name" name="name" onBlur={() => name_presence()}></input>
             </div>
             <div>
-              <input type="text" id="form_email" name="email" onBlur={() => email_check()}></input>
+              <label>Email:</label>
               <span className="form_warn">{emailPresence ? (emailValid ? "" : "Invalid Email") : "Required"}</span>
             </div>
             <div>
-              <label>Message:</label>
+              <input type="text" id="form_email" name="email" onBlur={() => email_check()}></input>
             </div>
             <div>
-              <textarea id="form_message" name="message" rows="4" cols="50"></textarea>
+              <label>Message:</label>
+              <span className="form_warn">{messagePresence ? "" : "Required"}</span>
+            </div>
+            <div>
+              <textarea id="form_message" name="message" rows="4" cols="50" onBlur={() => message_presence()}></textarea>
             </div>
             <div>
               <input type="submit" value="Submit" disabled />
