@@ -14,9 +14,14 @@ function Contact(props) {
     }
   }
 
+  function email_check() {
+    email_presence()
+    email_validity()
+  }
+
   function email_presence() {
-    const name_value = document.getElementById("form_email").value
-    if (name_value) {
+    const email_value = document.getElementById("form_email").value
+    if (email_value) {
       setEmailPresence(true);
     } else {
       setEmailPresence(false);
@@ -24,8 +29,8 @@ function Contact(props) {
   }
 
   function email_validity() {
-    const name_value = document.getElementById("form_email").value
-    if (name_value) {
+    const email_value = document.getElementById("form_email").value
+    if (/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/i.test(email_value)) {
       setEmailValid(true);
     } else {
       setEmailValid(false);
@@ -54,8 +59,8 @@ function Contact(props) {
               <label>Email:</label>
             </div>
             <div>
-              <input type="text" id="form_email" name="email" onBlur={() => email_presence()}></input>
-              <span className="form_warn">{emailPresence ? "" : "Required"}</span>
+              <input type="text" id="form_email" name="email" onBlur={() => email_check()}></input>
+              <span className="form_warn">{emailPresence ? (emailValid ? "" : "Invalid Email") : "Required"}</span>
             </div>
             <div>
               <label>Message:</label>
