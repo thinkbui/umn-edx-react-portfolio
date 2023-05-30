@@ -49,23 +49,24 @@ function Contact(props) {
           <form onSubmit={formSubmitHandler}>
             <div>
               <label>Name:</label>
-            </div>
-            <div>
-              <input type="text" id="form_name" name="name" onBlur={() => name_presence()}></input>
               <span className="form_warn">{namePresence ? "" : "Required"}</span>
             </div>
             <div>
-              <label>Email:</label>
+              <input type="text" id="form_name" name="name" onBlur={() => name_presence()}></input>
             </div>
             <div>
-              <input type="text" id="form_email" name="email" onBlur={() => email_check()}></input>
+              <label>Email:</label>
               <span className="form_warn">{emailPresence ? (emailValid ? "" : "Invalid Email") : "Required"}</span>
             </div>
             <div>
-              <label>Message:</label>
+              <input type="text" id="form_email" name="email" onBlur={() => email_check()}></input>
             </div>
             <div>
-              <textarea id="form_message" name="message" rows="4" cols="50"></textarea>
+              <label>Message:</label>
+              <span className="form_warn">{messagePresence ? "" : "Required"}</span>
+            </div>
+            <div>
+              <textarea id="form_message" name="message" rows="4" cols="50" onBlur={() => message_presence()}></textarea>
             </div>
             <div>
               <input type="submit" value="Submit" disabled />
