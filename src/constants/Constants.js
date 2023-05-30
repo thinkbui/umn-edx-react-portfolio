@@ -121,6 +121,11 @@ export const contact_options = [
     "title": "GitHub",
     "href": ""
   },
+  {
+    "key": "stackoverflow",
+    "title": "StackOverflow",
+    "href": ""
+  },
 ];
 
 export const footer_text = "Ian Bui 2023";
