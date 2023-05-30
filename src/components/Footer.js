@@ -3,7 +3,7 @@ function Footer(props) {
     <footer>
       <div className="heading">
         <ul className="profile_links">
-          {props.contact_options.map((option) => <li><a href={option.href}>{option.title}</a></li>)}
+          {props.contact_options.map((option) => <li key={option.key}><a href={option.href}>{option.title}</a></li>)}
         </ul>
       </div>
       <p>

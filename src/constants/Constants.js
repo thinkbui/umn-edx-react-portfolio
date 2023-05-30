@@ -21,41 +21,50 @@ export const tab_names = {
 export const about_me_headshot_src = about_me_headshot;
 
 export const about_me_bio = [
-  "I am a web developer based in the Twin Cities area in Minnesota.  Although my professional experience has been in Ruby on Rails, I have knowledge in the MERN Stack and can easily pick up new technologies.",
+  {
+    "key": "line0",
+    "content": "I am a web developer based in the Twin Cities area in Minnesota.  Although my professional experience has been in Ruby on Rails, I have knowledge in the MERN Stack and can easily pick up new technologies.",
+  }
 ];
 
 export const examples_list = [
   {
+    "key": "live-events",
     "title": "Live Events API (Group Project)",
     "link": "https://github.com/JacobDNelsonStone/live-music-search-ticketmaster-api",
     "image": example_list_live_events_img,
     "deployed_link": "https://jacobdnelsonstone.github.io/live-music-search-ticketmaster-api/",
   },
   {
+    "key": "weather-dashboard",
     "title": "Weather Dashboard",
     "link": "https://github.com/thinkbui/umn-edx-weather-dashboard",
     "image": example_list_weather_dashboard_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-weather-dashboard/",
   },
   {
+    "key": "workday-scheduler",
     "title": "Workday Scheduler",
     "link": "https://github.com/thinkbui/umn-edx-work-day-scheduler",
     "image": example_list_workday_scheduler_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-work-day-scheduler/",
   },
   {
+    "key": "timed-quiz",
     "title": "Timed Quiz",
     "link": "https://github.com/thinkbui/umn-edx-timed-quiz",
     "image": example_list_timed_quiz_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-timed-quiz/",
   },
   {
+    "key": "password-generator",
     "title": "Password Generator",
     "link": "https://github.com/thinkbui/umn-edx-password-generator",
     "image": example_list_password_generator_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-password-generator/",
   },
   {
+    "key": "refactor",
     "title": "Refactor Challenge",
     "link": "https://github.com/thinkbui/umn-edx-module-1-challenge-code-refactor",
     "image": example_list_refactor_challenge_img,
@@ -63,32 +72,55 @@ export const examples_list = [
   },
 ];
 
-export const contact_options = [
-  {
-    "title": "555-555-5555",
-    "href": "tel:5555555555"
-  },
-  {
-    "title": "admin@example.com",
-    "href": "mailto:admin@example.com"
-  },
-  {
-    "title": "LinkedIn",
-    "href": ""
-  },
-  {
-    "title": "GitHub",
-    "href": ""
-  },
-];
-
 export const resume_content = [
-  "My resume is not currently available at this location.  Please visit my LinkedIn profile in the meantime.",
+  {
+    "key": "line0",
+    "content": "I have 4+ years of professional experience with Ruby on Rails in an Agile environment."
+  },
+  {
+    "key": "line1",
+    "content": "I have 4+ years of professional experience with AngularJS."
+  },
+  {
+    "key": "line2",
+    "content": "I have 7+ years of professional experience with different flavors of SQL."
+  },
+  {
+    "key": "line3",
+    "content": "I've recently completed a bootcamp for the MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS)."
+  },
+  {
+    "key": "line4",
+    "content": "My resume is not currently available at this location.  Please visit my LinkedIn profile in the meantime.",
+  }
 ]
 
 export const resume_link = {
   "link": "https://www.sec.gov/jobs/sample-resume/sample-resume.pdf",
   "text": "Placeholder Resume",
 };
+
+export const contact_options = [
+  {
+    "key": "phone",
+    "title": "555-555-5555",
+    "href": "tel:5555555555"
+  },
+  {
+    "key": "email",
+    "title": "admin@example.com",
+    "href": "mailto:admin@example.com"
+  },
+  {
+    "key": "linkedin",
+    "title": "LinkedIn",
+    "href": ""
+  },
+  {
+    "key": "github",
+    "title": "GitHub",
+    "href": ""
+  },
+];
 
 export const footer_text = "Ian Bui 2023";

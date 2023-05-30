@@ -6,7 +6,7 @@ function AboutMe(props) {
       </div>
       <div className="content">
         <img src={props.about_me_headshot_src} />
-        {props.about_me_bio.map((paragraph) => <p>{paragraph}</p>)}
+        {props.about_me_bio.map((paragraph) => <p key={paragraph.key}>{paragraph.content}</p>)}
       </div>
     </article>
   );
