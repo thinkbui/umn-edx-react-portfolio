@@ -37,6 +37,11 @@ function Contact(props) {
     }
   }
 
+  function formSubmitHandler(event) {
+    event.preventDefault();
+    console.log("submit");
+  }
+
   return (
     <section id="contact">
       <div className="heading">
@@ -47,7 +52,7 @@ function Contact(props) {
           <div className="form_warn">
             This form isn't currently operational.  Please contact me via LinkedIn in the meantime.
           </div>
-          <form>
+          <form onSubmit={formSubmitHandler}>
             <div>
               <label>Name:</label>
             </div>
@@ -67,6 +72,9 @@ function Contact(props) {
             </div>
             <div>
               <textarea id="form_message" name="message" rows="4" cols="50"></textarea>
+            </div>
+            <div>
+              <input type="submit" value="Submit" disabled />
             </div>
           </form>
         </div>
