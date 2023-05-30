@@ -4,6 +4,7 @@ function Contact(props) {
   const [ namePresence, setNamePresence ] = useState(true);
   const [ emailPresence, setEmailPresence ] = useState(true);
   const [ emailValid, setEmailValid ] = useState(true);
+  const [ messagePresence, setMessagePresence ] = useState(true);
 
   function name_presence() {
     const name_value = document.getElementById("form_name").value
@@ -23,6 +24,11 @@ function Contact(props) {
   function email_validity() {
     const email_value = document.getElementById("form_email").value
     setEmailValid(/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/i.test(email_value));
+  }
+
+  function message_presence() {
+    const message_value = document.getElementById("form_message").value
+    setMessagePresence(!!message_value);
   }
 
   function formSubmitHandler(event) {
