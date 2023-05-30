@@ -6,7 +6,7 @@ function Header(props) {
       <nav>
         <ul>
           <li>
-            <a onClick={() => props.switchTab("about-me")}>
+            <a className={props.mainTab === "about-me" ? "header_link_highlight" : ""} onClick={() => props.switchTab("about-me")}>
               {props.tab_names.about_me}
             </a>
           </li>

@@ -20,6 +20,7 @@ function App() {
         headshot_src={headshot_src}
         header_name={header_name}
         tab_names={tab_names}
+        mainTab={mainTab}
       />
       <Main
         mainTab={mainTab}
