@@ -136,6 +136,10 @@ section h2 {
   font-weight: bolder;
 }
 
+.trail_space {
+  margin-bottom: var(--spacing);
+}
+
 .resume_content {
   margin-bottom: 10px;
 }
