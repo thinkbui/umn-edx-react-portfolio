@@ -37,7 +37,7 @@ nav li a {
   transition: background-color 1s ease, color 0.5s ease;
 }
 
-nav li a:hover {
+nav li a:hover, nav li a.header_link_highlight {
   color: var(--maroon);
   background-color: var(--gold);
 }
