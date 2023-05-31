@@ -1,7 +1,6 @@
+import Navigation from "./Header/Navigation"
+
 function Header(props) {
-  function headerLinkHighlight(tab_name) {
-    return props.mainTab === tab_name ? "header_link_highlight" : "";
-  }
   return (
     <header>
       <img src={props.headshot_src} />
@@ -9,14 +8,11 @@ function Header(props) {
       <nav>
         <ul>
           {props.tab_list.map((tab) => (
-            <li>
-              <a
-                className={headerLinkHighlight(tab)}
-                onClick={() => props.switchTab(tab)}
-              >
-                {props.tab_data[tab].name}
-              </a>
-            </li>
+            <Navigation
+              tab={tab}
+              tab_data={props.tab_data}
+              switchTab={props.switchTab}
+            />
           ))}
         </ul>
       </nav>
