@@ -11,12 +11,22 @@ export const headshot_src = headshot;
 
 export const header_name = "Ian Bui";
 
-export const tab_names = {
-  "about_me": "About Me",
-  "portfolio": "Portfolio",
-  "contact": "Contact",
-  "resume": "Resume"
-}
+export const tab_list = ["about_me", "resume", "portfolio", "contact"];
+
+export const tab_data = {
+  "about_me": {
+    "name": "About Me"
+  },
+  "portfolio": {
+    "name": "Portfolio"
+  },
+  "contact": {
+    "name": "Contact"
+  },
+  "resume": {
+    "name": "Resume"
+  }
+};
 
 export const about_me_headshot_src = about_me_headshot;
 
@@ -119,6 +129,11 @@ export const contact_options = [
   {
     "key": "github",
     "title": "GitHub",
+    "href": ""
+  },
+  {
+    "key": "stackoverflow",
+    "title": "StackOverflow",
     "href": ""
   },
 ];

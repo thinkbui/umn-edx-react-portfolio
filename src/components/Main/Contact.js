@@ -43,7 +43,7 @@ function Contact(props) {
       </div>
       <div>
         <div className="content">
-          <div className="form_warn">
+          <div className="form_warn trail_space">
             This form isn't currently operational.  Please contact me via LinkedIn in the meantime.
           </div>
           <form onSubmit={formSubmitHandler}>

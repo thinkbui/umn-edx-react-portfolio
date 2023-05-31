@@ -8,38 +8,16 @@ function Header(props) {
       <h1>{props.header_name}</h1>
       <nav>
         <ul>
-          <li>
-            <a
-              className={headerLinkHighlight("about-me")}
-              onClick={() => props.switchTab("about-me")}
-            >
-              {props.tab_names.about_me}
-            </a>
-          </li>
-          <li>
-            <a
-              className={headerLinkHighlight("portfolio")}
-              onClick={() => props.switchTab("portfolio")}
-            >
-              {props.tab_names.portfolio}
-            </a>
-          </li>
-          <li>
-            <a
-              className={headerLinkHighlight("contact")}
-              onClick={() => props.switchTab("contact")}
-            >
-              {props.tab_names.contact}
-            </a>
-          </li>
-          <li>
-            <a
-              className={headerLinkHighlight("resume")}
-              onClick={() => props.switchTab("resume")}
-            >
-              {props.tab_names.resume}
-            </a>
-          </li>
+          {props.tab_list.map((tab) => (
+            <li>
+              <a
+                className={headerLinkHighlight(tab)}
+                onClick={() => props.switchTab(tab)}
+              >
+                {props.tab_data[tab].name}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>

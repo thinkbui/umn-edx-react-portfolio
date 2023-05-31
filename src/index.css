@@ -3,6 +3,8 @@
   --gold: #FFCC33;
   --edge: 10px;
   --spacing: 20px;
+  --headshot-dimension: 222px;
+  --border-radius: 10px;
 }
 
 * {

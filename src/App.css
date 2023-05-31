@@ -71,6 +71,17 @@ section h2 {
   font-weight: bolder;
 }
 
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: var(--headshot-dimension) repeat(auto-fit, minmax(var(--headshot-dimension), 1fr));
+}
+
+.about-me-image {
+  width: var(--headshot-dimension);
+  height: var(--headshot-dimension);
+}
+
 #portfolio .content .card {
   width: 240px;
   height: 240px;
@@ -78,6 +89,7 @@ section h2 {
   display: block;
   background-color: var(--gold);
   text-align: center;
+  border-radius: var(--border-radius);
 }
 
 #portfolio .content .card:first-child {
@@ -94,6 +106,9 @@ section h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--gold);
+  padding-top: var(--spacing);
+  margin-bottom: var(--spacing);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
 #portfolio .content .card:first-child .example_main_link {
@@ -134,6 +149,10 @@ section h2 {
 .form_warn {
   color: red;
   font-weight: bolder;
+}
+
+.trail_space {
+  margin-bottom: var(--spacing);
 }
 
 .resume_content {
@@ -179,6 +198,12 @@ footer {
   nav ul {
     font-size: 30px;
   }
+
+  .profile_links li {
+    display: block;
+    margin: 4px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -186,9 +211,19 @@ footer {
     text-align: center;
   }
 
-  nav li, .profile_links li {
+  nav li {
     display: block;
     margin: 4px;
     width: 100%;
+  }
+
+  .grid {
+    display: block;
+  }
+
+  .about-me-image {
+    width: 100%;
+    height: 100%;
+    text-align: center;
   }
 }
