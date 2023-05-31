@@ -89,6 +89,7 @@ section h2 {
   display: block;
   background-color: var(--gold);
   text-align: center;
+  border-radius: var(--border-radius);
 }
 
 #portfolio .content .card:first-child {
@@ -105,6 +106,9 @@ section h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--gold);
+  padding-top: var(--spacing);
+  margin-bottom: var(--spacing);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
 #portfolio .content .card:first-child .example_main_link {
