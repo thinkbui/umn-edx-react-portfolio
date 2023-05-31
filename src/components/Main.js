@@ -6,6 +6,7 @@ import Resume from "./Main/Resume";
 function Main(props) {
   return (
     <main>
+      {/* TODO: Is there a way to condense this to a loop? */}
       { props.mainTab === "about_me" &&
         <AboutMe
           about_me_headshot_src={props.about_me_headshot_src}

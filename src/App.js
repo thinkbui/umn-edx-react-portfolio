@@ -6,6 +6,7 @@ import { headshot_src, header_name, tab_list, tab_data, about_me_headshot_src, a
 import './App.css';
 
 function App() {
+  // Since both the Header and Main components use this state, must keep this in root.
   const [ mainTab, setMainTab ] = useState("about_me")
 
   function switchTab(tab_name) {

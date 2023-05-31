@@ -1,3 +1,8 @@
+// This is the quasi-data warehouse meant to store all display data.
+// The pricipal idea is to keep all this information in a single location
+// for ease of management and simplify the potential process of adding a
+// real database in the future.
+
 import headshot from "./../img/Header/headshot.jpeg";
 import about_me_headshot from "./../img/Main/AboutMe/headshot.jpeg";
 import example_list_live_events_img from "./../img/Main/Portfolio/live-events-api.png";
@@ -11,6 +16,7 @@ export const headshot_src = headshot;
 
 export const header_name = "Ian Bui";
 
+// Keeping this array separate as it controls the order of links even if not DRY
 export const tab_list = ["about_me", "resume", "portfolio", "contact"];
 
 export const tab_data = {
