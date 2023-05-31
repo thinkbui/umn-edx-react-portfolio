@@ -18,6 +18,23 @@ export const tab_names = {
   "resume": "Resume"
 }
 
+export const tab_list = ["about_me", "portfolio", "contact", "resume"];
+
+export const tab_data = {
+  "about_me": {
+    "name": "About Me"
+  },
+  "portfolio": {
+    "name": "Portfolio"
+  },
+  "contact": {
+    "name": "Contact"
+  },
+  "resume": {
+    "name": "Resume"
+  }
+};
+
 export const about_me_headshot_src = about_me_headshot;
 
 export const about_me_bio = [

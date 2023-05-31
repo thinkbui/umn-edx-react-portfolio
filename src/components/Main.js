@@ -6,7 +6,7 @@ import Resume from "./Main/Resume";
 function Main(props) {
   return (
     <main>
-      { props.mainTab === "about-me" &&
+      { props.mainTab === "about_me" &&
         <AboutMe
           about_me_headshot_src={props.about_me_headshot_src}
           about_me_bio={props.about_me_bio}

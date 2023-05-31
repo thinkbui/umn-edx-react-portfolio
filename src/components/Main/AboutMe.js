@@ -1,6 +1,6 @@
 function AboutMe(props) {
   return (
-    <article id="about-me">
+    <article id="about_me">
       <div className="heading">
         <h2>{props.tab_name}</h2>
       </div>
