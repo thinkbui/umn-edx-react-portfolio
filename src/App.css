@@ -197,12 +197,20 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+  p {
+    font-size: 25px;
+  }
+
   #portfolio .content a:first-child {
     flex-basis: 0 1 auto;
   }
 
   nav ul {
     font-size: 30px;
+  }
+
+  .resume_link {
+    font-size: 25px;
   }
 
   .form_warn {
