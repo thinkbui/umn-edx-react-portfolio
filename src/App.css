@@ -209,6 +209,10 @@ footer {
     font-size: 30px;
   }
 
+  .resume_link {
+    font-size: 25px;
+  }
+
   .form_warn {
     font-size: var(--form-tablet-font-size);
   }
