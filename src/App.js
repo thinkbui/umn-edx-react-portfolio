@@ -2,7 +2,6 @@ import { useState } from "react"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
-import { contact_options, footer_text } from "./constants/Constants"
 import './App.css';
 
 function App() {
@@ -23,10 +22,7 @@ function App() {
       <Main
         mainTab={mainTab}
       />
-      <Footer
-        contact_options={contact_options}
-        footer_text={footer_text}
-      />
+      <Footer />
     </>
  );
 }
