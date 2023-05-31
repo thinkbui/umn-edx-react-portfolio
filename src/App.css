@@ -207,6 +207,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  header{
+    text-align: center;
+  }
+
   nav ul, .profile_links {
     text-align: center;
   }
