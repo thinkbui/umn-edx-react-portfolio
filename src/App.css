@@ -152,6 +152,11 @@ section h2 {
   font-weight: bolder;
 }
 
+.contact_form_textarea {
+  width: 50em;
+  height: 4em;
+}
+
 .trail_space {
   margin-bottom: var(--spacing);
 }
@@ -200,6 +205,27 @@ footer {
     font-size: 30px;
   }
 
+  .form_warn {
+    font-size: var(--form-tablet-font-size);
+  }
+
+  .contact_form {
+    font-size: var(--form-tablet-font-size);
+  }
+
+  .contact_form_input_text {
+    font-size: var(--form-tablet-font-size);
+  }
+
+  .contact_form_textarea {
+    font-size: var(--form-tablet-font-size);
+    width: 100%
+  }
+
+  .contact_form_submit {
+    font-size: var(--form-tablet-font-size);
+  }
+
   .profile_links li {
     display: block;
     margin: 4px;
@@ -230,5 +256,9 @@ footer {
     width: 100%;
     height: 100%;
     text-align: center;
+  }
+
+  .contact_form_input_text {
+    width: 100%;
   }
 }
