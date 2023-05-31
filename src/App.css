@@ -205,21 +205,25 @@ footer {
     font-size: 30px;
   }
 
+  .form_warn {
+    font-size: var(--form-tablet-font-size);
+  }
+
   .contact_form {
-    font-size: 30px;
+    font-size: var(--form-tablet-font-size);
   }
 
   .contact_form_input_text {
-    font-size: 30px;
+    font-size: var(--form-tablet-font-size);
   }
 
   .contact_form_textarea {
-    font-size: 30px;
+    font-size: var(--form-tablet-font-size);
     width: 100%
   }
 
   .contact_form_submit {
-    font-size: 30px;
+    font-size: var(--form-tablet-font-size);
   }
 
   .profile_links li {
