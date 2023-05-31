@@ -8,3 +8,5 @@ One of the requirements is to have a direct link to the live application for eac
 
 ## LIVE VIEW
 You can view the live app on [Heroku](https://thinkbui.herokuapp.com/).
+
+![Screenshot](./assets/images/Screenshot.png)
