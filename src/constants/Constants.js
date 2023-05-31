@@ -11,13 +11,6 @@ export const headshot_src = headshot;
 
 export const header_name = "Ian Bui";
 
-export const tab_names = {
-  "about_me": "About Me",
-  "portfolio": "Portfolio",
-  "contact": "Contact",
-  "resume": "Resume"
-}
-
 export const tab_list = ["about_me", "portfolio", "contact", "resume"];
 
 export const tab_data = {

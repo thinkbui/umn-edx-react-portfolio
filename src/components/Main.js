@@ -10,25 +10,25 @@ function Main(props) {
         <AboutMe
           about_me_headshot_src={props.about_me_headshot_src}
           about_me_bio={props.about_me_bio}
-          tab_name={props.tab_names.about_me}
+          tab_name={props.tab_data.about_me.name}
         />
       }
       { props.mainTab === "portfolio" &&
         <Portfolio
           examples_list={props.examples_list}
-          tab_name={props.tab_names.portfolio}
+          tab_name={props.tab_data.portfolio.name}
         />
       }
       { props.mainTab === "contact" &&
         <Contact
-          tab_name={props.tab_names.contact}
+          tab_name={props.tab_data.contact.name}
         />
       }
       { props.mainTab === "resume" &&
         <Resume
           resume_content={props.resume_content}
           resume_link={props.resume_link}
-          tab_name={props.tab_names.resume}
+          tab_name={props.tab_data.resume.name}
         />
       }
     </main>
