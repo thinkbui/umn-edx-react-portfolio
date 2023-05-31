@@ -1,4 +1,4 @@
-function CodeExample(props) {
+function Project(props) {
   return (
     <div className="card">
       <a
@@ -22,4 +22,4 @@ function CodeExample(props) {
   );
 }
   
-export default CodeExample;
+export default Project;
