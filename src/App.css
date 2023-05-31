@@ -197,6 +197,10 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+  p {
+    font-size: 25px;
+  }
+
   #portfolio .content a:first-child {
     flex-basis: 0 1 auto;
   }
