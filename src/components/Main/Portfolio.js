@@ -1,4 +1,4 @@
-import CodeExample from './Portfolio/CodeExample'
+import Project from './Portfolio/Project'
 
 function Portfolio(props) {
   return (
@@ -7,7 +7,7 @@ function Portfolio(props) {
         <h2>{props.tab_name}</h2>
       </div>
       <div className="content">
-        {props.examples_list.map((example) => <CodeExample key={example.key} example={example} />)}
+        {props.examples_list.map((example) => <Project key={example.key} example={example} />)}
       </div>
     </section>
   );

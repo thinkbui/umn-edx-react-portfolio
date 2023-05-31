@@ -89,6 +89,7 @@ section h2 {
   display: block;
   background-color: var(--gold);
   text-align: center;
+  border: 1px solid var(--maroon);
   border-radius: var(--border-radius);
 }
 
