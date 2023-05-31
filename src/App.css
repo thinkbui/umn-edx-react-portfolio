@@ -71,6 +71,17 @@ section h2 {
   font-weight: bolder;
 }
 
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: var(--headshot-dimension) repeat(auto-fit, minmax(var(--headshot-dimension), 1fr));
+}
+
+.about-me-image {
+  width: var(--headshot-dimension);
+  height: var(--headshot-dimension);
+}
+
 #portfolio .content .card {
   width: 240px;
   height: 240px;
@@ -194,5 +205,15 @@ footer {
     display: block;
     margin: 4px;
     width: 100%;
+  }
+
+  .grid {
+    display: block;
+  }
+
+  .about-me-image {
+    width: 100%;
+    height: 100%;
+    text-align: center;
   }
 }
