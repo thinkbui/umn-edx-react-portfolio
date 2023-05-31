@@ -21,15 +21,19 @@ export const tab_list = ["about_me", "resume", "portfolio", "contact"];
 
 export const tab_data = {
   "about_me": {
+    "key": "about_me",
     "name": "About Me"
   },
   "portfolio": {
+    "key": "portfolio",
     "name": "Portfolio"
   },
   "contact": {
+    "key": "contact",
     "name": "Contact"
   },
   "resume": {
+    "key": "resume",
     "name": "Resume"
   }
 };

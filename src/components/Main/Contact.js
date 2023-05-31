@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { tab_data } from "../../constants/Constants";
 
 function Contact(props) {
   const [ namePresence, setNamePresence ] = useState(true);
@@ -39,7 +40,7 @@ function Contact(props) {
   return (
     <section id="contact">
       <div className="heading">
-        <h2>{props.tab_name}</h2>
+        <h2>{tab_data.contact.name}</h2>
       </div>
       <div>
         <div className="content">
