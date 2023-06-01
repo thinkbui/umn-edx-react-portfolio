@@ -4,7 +4,10 @@ function Project(props) {
       <a
         href={props.example.link}
         className="example_main_link"
-        style={{backgroundImage: `url(${props.example.image})`}}
+        style={{
+          background: `linear-gradient(rgba(255, 144, 51, 0.20), rgba(255, 144, 51, 0.60)), url(${props.example.image}) no-repeat`,
+          backgroundSize: 'cover'
+        }}
         target="_blank"
       >
         <div className="example-code">
