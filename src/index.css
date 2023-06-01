@@ -6,6 +6,9 @@
   --headshot-dimension: 222px;
   --border-radius: 10px;
   --form-tablet-font-size: 30px;
+  --card-gradient-1: rgba(255, 144, 51, 0.40);
+  --card-gradient-2: rgba(255, 144, 51, 0.80);
+  --card-gradient: linear-gradient(var(--card-gradient-1), var(--card-gradient-2));
 }
 
 * {

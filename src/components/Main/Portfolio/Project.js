@@ -1,10 +1,16 @@
 function Project(props) {
+  function gradient_card(url) {
+    return `var(--card-gradient), url(${url}) 0 0/cover no-repeat`
+  }
+
   return (
     <div className="card">
       <a
         href={props.example.link}
         className="example_main_link"
-        style={{backgroundImage: `url(${props.example.image})`}}
+        style={{
+          background: props.example.image && gradient_card(props.example.image)
+        }}
         target="_blank"
       >
         <div className="example-code">
