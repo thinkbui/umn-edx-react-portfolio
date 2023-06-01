@@ -89,7 +89,7 @@ section h2 {
   display: block;
   background-color: var(--gold);
   text-align: center;
-  border: 1px solid var(--maroon);
+  /* border: 1px solid var(--maroon); */
   border-radius: var(--border-radius);
 }
 
@@ -103,8 +103,9 @@ section h2 {
   width: 100%;
   height: 200px;
   display: block;
-  background-image: url("../public/assets/images/code.png");
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(255, 144, 51, 0.40), rgba(255, 144, 51, 0.80)), url("../public/assets/images/code.png") no-repeat;
+  /* background-image: url("../public/assets/images/code.png"); */
+  /* background-repeat: no-repeat; */
   background-size: cover;
   background-color: var(--gold);
   padding-top: var(--spacing);
