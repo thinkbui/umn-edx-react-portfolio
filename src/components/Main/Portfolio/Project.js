@@ -1,6 +1,6 @@
 function Project(props) {
   function gradient_card(url) {
-    return `linear-gradient(rgba(255, 144, 51, 0.40), rgba(255, 144, 51, 0.80)), url(${url}) no-repeat`
+    return `var(--card-gradient), url(${url}) no-repeat`
   }
 
   return (
