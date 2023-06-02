@@ -53,7 +53,7 @@ export const examples_list = [
     "title": "Live Events API (Group Project)",
     "link": "https://github.com/JacobDNelsonStone/live-music-search-ticketmaster-api",
     "image": example_list_live_events_img,
-    // "deployed_link": "https://jacobdnelsonstone.github.io/live-music-search-ticketmaster-api/",
+    "deployed_link": "https://jacobdnelsonstone.github.io/live-music-search-ticketmaster-api/",
   },
   {
     "key": "weather-dashboard",
