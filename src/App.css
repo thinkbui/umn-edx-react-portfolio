@@ -144,6 +144,11 @@ section h2 {
   position: relative;
 }
 
+.card-no-link {
+  color: var(--maroon);
+  font-style: italic;
+}
+
 .form_warn {
   color: red;
   font-weight: bolder;

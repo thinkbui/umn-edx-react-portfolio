@@ -17,13 +17,18 @@ function Project(props) {
           <h3>{props.example.title}</h3>
         </div>
       </a>
-      <a
-        href={props.example.deployed_link}
-        className="example_deployed_link"
-        target="_blank"
-      >
-        🚀 Deployed App
-      </a>
+      {
+        props.example.deployed_link ?
+          <a
+            href={props.example.deployed_link}
+            className="example_deployed_link"
+            target="_blank"
+          >
+            🚀 View Deployed App
+          </a>
+        :
+          <p className="card-no-link">(not deployed)</p>
+      }
     </div>
   );
 }
