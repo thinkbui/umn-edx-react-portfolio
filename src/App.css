@@ -154,7 +154,7 @@ section h2 {
 }
 
 .example_main_link:hover h3 {
-  box-shadow: 0 0 10px var(--maroon);
+  box-shadow: 0 0 20px var(--maroon);
 }
 
 .card-no-link {
