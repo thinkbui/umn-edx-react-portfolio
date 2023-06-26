@@ -119,6 +119,11 @@ section h2 {
 
 #portfolio .content .card .example_deployed_link {
   color: var(--maroon);
+  transition: text-shadow 1s ease;
+}
+
+#portfolio .content .card .example_deployed_link:hover {
+  text-shadow: 0 0 10px var(--maroon);
 }
 
 #portfolio .content {
