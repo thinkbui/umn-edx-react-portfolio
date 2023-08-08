@@ -57,6 +57,12 @@ export const about_me_bio = [
 
 export const examples_list = [
   {
+    "key": "svg-logo-maker",
+    "title": "SVG Logo Maker",
+    "description": "CLI app to generate a simple logo for web use",
+    "link": "https://github.com/thinkbui/umn-edx-svg-logo-maker",
+  },
+  {
     "key": "generate-readme",
     "title": "Generate Readme",
     "description": "CLI app to build a readme file for GitHub repositories",
