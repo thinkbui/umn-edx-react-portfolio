@@ -11,6 +11,7 @@ import example_list_weather_dashboard_img from "./../img/Main/Portfolio/weather-
 import example_list_workday_scheduler_img from "./../img/Main/Portfolio/workday-scheduler.png";
 import example_list_timed_quiz_img from "./../img/Main/Portfolio/timed-quiz.png";
 import example_list_password_generator_img from "./../img/Main/Portfolio/password-generator.png";
+import example_list_professional_portfolio_img from "./../img/Main/Portfolio/professional-portfolio.png";
 import example_list_refactor_challenge_img from "./../img/Main/Portfolio/refactor-challenge.png";
 
 export const headshot_src = headshot;
@@ -57,6 +58,24 @@ export const about_me_bio = [
 ];
 
 export const examples_list = [
+  {
+    "key": "e-commerce-back-end",
+    "title": "E-Commerce Back End",
+    "description": "Web API to manage inventory for an online retailer using Sequelize",
+    "link": "https://github.com/thinkbui/umn-edx-orm-e-commerce-back-end",
+  },
+  {
+    "key": "employee-traker",
+    "title": "Employee Tracker",
+    "description": "CLI app to manage employee information including department, role, and hierarchy",
+    "link": "https://github.com/thinkbui/umn-edx-employee-tracker",
+  },
+  {
+    "key": "employee-traker",
+    "title": "Employee Tracker",
+    "description": "CLI app to manage employee information including department, role, and hierarchy using MySQL2",
+    "link": "https://github.com/thinkbui/umn-edx-employee-tracker",
+  },
   {
     "key": "express-note-taker",
     "title": "Express Note Taker",
@@ -116,6 +135,14 @@ export const examples_list = [
     "link": "https://github.com/thinkbui/umn-edx-password-generator",
     "image": example_list_password_generator_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-password-generator/",
+  },
+  {
+    "key": "professional-portfolio",
+    "title": "Professional Portfolio",
+    "description": "Early version of this online portfolio using only HTML/CSS",
+    "link": "https://github.com/thinkbui/umn-edx-professional-portfolio",
+    "image": example_list_professional_portfolio_img,
+    "deployed_link": "https://thinkbui.github.io/umn-edx-professional-portfolio/",
   },
   {
     "key": "refactor",
