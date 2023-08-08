@@ -12,6 +12,7 @@ function Project(props) {
           background: props.example.image && gradient_card(props.example.image)
         }}
         target="_blank"
+        rel="noopener noreferrer"
       >
         <div className="example-code">
           <h3>{props.example.title}</h3>
@@ -24,6 +25,7 @@ function Project(props) {
             href={props.example.deployed_link}
             className="example_deployed_link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             🚀 View Deployed App
           </a>
