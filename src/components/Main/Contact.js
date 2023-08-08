@@ -44,35 +44,7 @@ function Contact(props) {
       </div>
       <div>
         <div className="content">
-          <div className="form_warn trail_space">
-            This form isn't currently operational.  Please contact me via LinkedIn in the meantime.
-          </div>
-          <form className="contact_form" onSubmit={formSubmitHandler}>
-            <div>
-              <label>Name:</label>
-              <span className="form_warn">{namePresence ? "" : "Required"}</span>
-            </div>
-            <div>
-              <input className="contact_form_input_text" type="text" id="form_name" name="name" onBlur={() => name_presence()}></input>
-            </div>
-            <div>
-              <label>Email:</label>
-              <span className="form_warn">{emailPresence ? (emailValid ? "" : "Invalid Email") : "Required"}</span>
-            </div>
-            <div>
-              <input className="contact_form_input_text" type="text" id="form_email" name="email" onBlur={() => email_check()}></input>
-            </div>
-            <div>
-              <label>Message:</label>
-              <span className="form_warn">{messagePresence ? "" : "Required"}</span>
-            </div>
-            <div>
-              <textarea className="contact_form_textarea" id="form_message" name="message" onBlur={() => message_presence()}></textarea>
-            </div>
-            <div>
-              <input className="contact_form_submit" type="submit" value="Submit" disabled />
-            </div>
-          </form>
+          Please refer to my job application for contact information or use the messaging system in LinkedIn.
         </div>
       </div>
     </section>
