@@ -80,8 +80,8 @@ export const examples_list = [
   },
   {
     "key": "pwa-text-editor",
-    "title": "Progressive Web Application Text Editor",
-    "description": "Brief study of PWAs completing code for a text editor that can function offline",
+    "title": "PWA Text Editor",
+    "description": "Brief study of Progressive Web Applications completing code for a text editor that can function offline",
     "link": "https://github.com/thinkbui/umn-edx-progressive-web-applications-text-editor",
     "image": example_list_pwa_text_editor_img,
     "deployed_link": "https://umn-edx-pwa-text-editor.herokuapp.com/",
