@@ -12,7 +12,7 @@ function AboutMe(props) {
             <img src={about_me_headshot_src} />
           </div>
           <div className="about-me-text">
-            {about_me_bio.map((paragraph) => <p key={paragraph.key}>{paragraph.content}</p>)}
+            {about_me_bio.map((paragraph) => <p className="trail_space" key={paragraph.key}>{paragraph.content}</p>)}
           </div>
         </div>
       </div>
