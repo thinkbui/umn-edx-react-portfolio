@@ -121,31 +121,31 @@ export const resume_link = {
 };
 
 export const contact_options = [
-  {
-    "key": "phone",
-    "title": "555-555-5555",
-    "href": "tel:5555555555"
-  },
-  {
-    "key": "email",
-    "title": "admin@example.com",
-    "href": "mailto:admin@example.com"
-  },
+  // {
+  //   "key": "phone",
+  //   "title": "555-555-5555",
+  //   "href": "tel:5555555555"
+  // },
+  // {
+  //   "key": "email",
+  //   "title": "admin@example.com",
+  //   "href": "mailto:admin@example.com"
+  // },
   {
     "key": "linkedin",
     "title": "LinkedIn",
-    "href": ""
+    "href": "https://www.linkedin.com/in/ian-bui-81b3668/"
   },
   {
     "key": "github",
     "title": "GitHub",
-    "href": ""
+    "href": "https://github.com/thinkbui"
   },
-  {
-    "key": "stackoverflow",
-    "title": "StackOverflow",
-    "href": ""
-  },
+  // {
+  //   "key": "stackoverflow",
+  //   "title": "StackOverflow",
+  //   "href": ""
+  // },
 ];
 
 export const footer_text = "Ian Bui 2023";
