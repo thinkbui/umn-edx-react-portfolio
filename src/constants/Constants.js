@@ -57,6 +57,12 @@ export const about_me_bio = [
 
 export const examples_list = [
   {
+    "key": "generate-readme",
+    "title": "Generate Readme",
+    "description": "CLI app to build a readme file for GitHub repositories",
+    "link": "https://github.com/thinkbui/umn-edx-generate-readme",
+  },
+  {
     "key": "live-events",
     "title": "Live Events Search (Group Project)",
     "description": "Simple search to find local events within a city and date range",
