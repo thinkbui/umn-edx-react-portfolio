@@ -5,6 +5,7 @@
 
 import headshot from "./../img/Header/headshot.jpeg";
 import about_me_headshot from "./../img/Main/AboutMe/headshot.jpeg";
+import example_list_pwa_text_editor_img from "./../img/Main/Portfolio/pwa-text-editor.png";
 import example_list_tindog_img from "./../img/Main/Portfolio/tindog.png";
 import example_list_express_note_taker_img from "./../img/Main/Portfolio/express-note-taker.png";
 import example_list_live_events_img from "./../img/Main/Portfolio/live-events-api.png";
@@ -59,6 +60,14 @@ export const about_me_bio = [
 ];
 
 export const examples_list = [
+  {
+    "key": "pwa-text-editor",
+    "title": "Progressive Web Application Text Editor",
+    "description": "Brief study of PWAs completing code for a text editor that can function offline",
+    "link": "https://github.com/thinkbui/umn-edx-progressive-web-applications-text-editor",
+    "image": example_list_pwa_text_editor_img,
+    "deployed_link": "https://umn-edx-pwa-text-editor.herokuapp.com/",
+  },
   {
     "key": "nosql-social-network-api",
     "title": "NoSQL Social Network API",
