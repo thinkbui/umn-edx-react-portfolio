@@ -58,8 +58,8 @@ export const about_me_bio = [
 export const examples_list = [
   {
     "key": "live-events",
-    "title": "Live Events API (Group Project)",
-    "description": "",
+    "title": "Live Events Search (Group Project)",
+    "description": "Simple search to find local events within a city and date range",
     "link": "https://github.com/JacobDNelsonStone/live-music-search-ticketmaster-api",
     "image": example_list_live_events_img,
     "deployed_link": "https://jacobdnelsonstone.github.io/live-music-search-ticketmaster-api/",
@@ -67,7 +67,7 @@ export const examples_list = [
   {
     "key": "weather-dashboard",
     "title": "Weather Dashboard",
-    "description": "",
+    "description": "Display the current conditions and a 5-day forecast for many major cities",
     "link": "https://github.com/thinkbui/umn-edx-weather-dashboard",
     "image": example_list_weather_dashboard_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-weather-dashboard/",
@@ -75,7 +75,7 @@ export const examples_list = [
   {
     "key": "workday-scheduler",
     "title": "Workday Scheduler",
-    "description": "",
+    "description": "Web-based daily agenda maker using Local Storage",
     "link": "https://github.com/thinkbui/umn-edx-work-day-scheduler",
     "image": example_list_workday_scheduler_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-work-day-scheduler/",
@@ -83,7 +83,7 @@ export const examples_list = [
   {
     "key": "timed-quiz",
     "title": "Timed Quiz",
-    "description": "",
+    "description": "Basic web quiz using a JS clock and Local Storage to store high scores",
     "link": "https://github.com/thinkbui/umn-edx-timed-quiz",
     "image": example_list_timed_quiz_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-timed-quiz/",
@@ -91,7 +91,7 @@ export const examples_list = [
   {
     "key": "password-generator",
     "title": "Password Generator",
-    "description": "",
+    "description": "Simple web-based password generator where options selected through JS prompts",
     "link": "https://github.com/thinkbui/umn-edx-password-generator",
     "image": example_list_password_generator_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-password-generator/",
