@@ -44,7 +44,11 @@ export const about_me_bio = [
   {
     "key": "line0",
     "content": "I am a web developer based in the Twin Cities area in Minnesota.  Although my professional experience has been in Ruby on Rails, I have knowledge in the MERN Stack and can easily pick up new technologies.",
-  }
+  },
+  {
+    "key": "line1",
+    "content": "I've recently completed a web development bootcamp through the University of Minnesota where the focus was on MERN including its underlying technologies (MongoDB, ExpressJS, ReactJS, NodeJS) and potential work with others such as Sequelize/MySQL.",
+  },
 ];
 
 export const examples_list = [
