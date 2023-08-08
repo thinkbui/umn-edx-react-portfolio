@@ -9,7 +9,7 @@ function AboutMe(props) {
       <div className="content">
         <div className="grid">
           <div className="about-me-image">
-            <img src={about_me_headshot_src} />
+            <img src={about_me_headshot_src} alt="Portrait" />
           </div>
           <div className="about-me-text">
             {about_me_bio.map((paragraph) => <p className="trail_space" key={paragraph.key}>{paragraph.content}</p>)}
