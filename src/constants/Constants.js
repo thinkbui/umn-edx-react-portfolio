@@ -5,6 +5,7 @@
 
 import headshot from "./../img/Header/headshot.jpeg";
 import about_me_headshot from "./../img/Main/AboutMe/headshot.jpeg";
+import example_list_tindog_img from "./../img/Main/Portfolio/tindog.png";
 import example_list_express_note_taker_img from "./../img/Main/Portfolio/express-note-taker.png";
 import example_list_live_events_img from "./../img/Main/Portfolio/live-events-api.png";
 import example_list_weather_dashboard_img from "./../img/Main/Portfolio/weather-dashboard.png";
@@ -58,6 +59,14 @@ export const about_me_bio = [
 ];
 
 export const examples_list = [
+  {
+    "key": "tindog",
+    "title": "TinDog (Group Project)",
+    "description": "Dog breed matching and adoption app using ExpressJS, Handlebars, and Sequelize",
+    "link": "https://github.com/YockaFlocka/tindog",
+    "image": example_list_tindog_img,
+    "deployed_link": "https://github.com/YockaFlocka/tindog",
+  },
   {
     "key": "e-commerce-back-end",
     "title": "E-Commerce Back End",
