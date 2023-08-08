@@ -149,6 +149,11 @@ section h2 {
   position: relative;
 }
 
+.example-code-desc {
+  color: var(--maroon);
+  background-color: var(--gold);
+}
+
 .example_main_link h3{
   transition: box-shadow 1s ease;
 }

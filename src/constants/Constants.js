@@ -59,6 +59,7 @@ export const examples_list = [
   {
     "key": "live-events",
     "title": "Live Events API (Group Project)",
+    "description": "",
     "link": "https://github.com/JacobDNelsonStone/live-music-search-ticketmaster-api",
     "image": example_list_live_events_img,
     "deployed_link": "https://jacobdnelsonstone.github.io/live-music-search-ticketmaster-api/",
@@ -66,6 +67,7 @@ export const examples_list = [
   {
     "key": "weather-dashboard",
     "title": "Weather Dashboard",
+    "description": "",
     "link": "https://github.com/thinkbui/umn-edx-weather-dashboard",
     "image": example_list_weather_dashboard_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-weather-dashboard/",
@@ -73,6 +75,7 @@ export const examples_list = [
   {
     "key": "workday-scheduler",
     "title": "Workday Scheduler",
+    "description": "",
     "link": "https://github.com/thinkbui/umn-edx-work-day-scheduler",
     "image": example_list_workday_scheduler_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-work-day-scheduler/",
@@ -80,6 +83,7 @@ export const examples_list = [
   {
     "key": "timed-quiz",
     "title": "Timed Quiz",
+    "description": "",
     "link": "https://github.com/thinkbui/umn-edx-timed-quiz",
     "image": example_list_timed_quiz_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-timed-quiz/",
@@ -87,6 +91,7 @@ export const examples_list = [
   {
     "key": "password-generator",
     "title": "Password Generator",
+    "description": "",
     "link": "https://github.com/thinkbui/umn-edx-password-generator",
     "image": example_list_password_generator_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-password-generator/",
@@ -94,6 +99,7 @@ export const examples_list = [
   {
     "key": "refactor",
     "title": "Refactor Challenge",
+    "description": "Update of existing webpage to use semantic HTML",
     "link": "https://github.com/thinkbui/umn-edx-module-1-challenge-code-refactor",
     "image": example_list_refactor_challenge_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-module-1-challenge-code-refactor/",
