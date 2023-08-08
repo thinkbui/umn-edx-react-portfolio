@@ -60,6 +60,18 @@ export const about_me_bio = [
 
 export const examples_list = [
   {
+    "key": "nosql-social-network-api",
+    "title": "NoSQL Social Network API",
+    "description": "Web API to manage activity on a social network using MongoDB",
+    "link": "https://github.com/thinkbui/umn-edx-nosql-social-network-api",
+  },
+  {
+    "key": "regex-tutorial",
+    "title": "Javascript Regex Tutorial",
+    "description": "Quick reference I made for myself about Regular Expressions",
+    "link": "https://gist.github.com/thinkbui/7b5644fde9fd9a420b42e8832d645132",
+  },
+  {
     "key": "tindog",
     "title": "TinDog (Group Project)",
     "description": "Dog breed matching and adoption app using ExpressJS, Handlebars, and Sequelize",
@@ -72,12 +84,6 @@ export const examples_list = [
     "title": "E-Commerce Back End",
     "description": "Web API to manage inventory for an online retailer using Sequelize",
     "link": "https://github.com/thinkbui/umn-edx-orm-e-commerce-back-end",
-  },
-  {
-    "key": "employee-traker",
-    "title": "Employee Tracker",
-    "description": "CLI app to manage employee information including department, role, and hierarchy",
-    "link": "https://github.com/thinkbui/umn-edx-employee-tracker",
   },
   {
     "key": "employee-traker",
