@@ -5,6 +5,7 @@
 
 import headshot from "./../img/Header/headshot.jpeg";
 import about_me_headshot from "./../img/Main/AboutMe/headshot.jpeg";
+import example_list_trail_blazers_img from "./../img/Main/Portfolio/trail-blazers.png";
 import example_list_react_portfolio_img from "./../img/Main/Portfolio/react-portfolio.png";
 import example_list_pwa_text_editor_img from "./../img/Main/Portfolio/pwa-text-editor.png";
 import example_list_tindog_img from "./../img/Main/Portfolio/tindog.png";
@@ -61,6 +62,14 @@ export const about_me_bio = [
 ];
 
 export const examples_list = [
+  {
+    "key": "trail-blazers",
+    "title": "Trail-Blazers (Group Project)",
+    "description": "Hiking trail finder and tracker using the MERN Stack",
+    "link": "https://github.com/Moe1401/hiking-guide",
+    "image": example_list_trail_blazers_img,
+    "deployed_link": "https://trail-blazerz.herokuapp.com/",
+  },
   {
     "key": "react-portfolio",
     "title": "ReactJS Portfolio (This Site)",
