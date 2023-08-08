@@ -5,6 +5,7 @@
 
 import headshot from "./../img/Header/headshot.jpeg";
 import about_me_headshot from "./../img/Main/AboutMe/headshot.jpeg";
+import example_list_react_portfolio_img from "./../img/Main/Portfolio/react-portfolio.png";
 import example_list_pwa_text_editor_img from "./../img/Main/Portfolio/pwa-text-editor.png";
 import example_list_tindog_img from "./../img/Main/Portfolio/tindog.png";
 import example_list_express_note_taker_img from "./../img/Main/Portfolio/express-note-taker.png";
@@ -60,6 +61,14 @@ export const about_me_bio = [
 ];
 
 export const examples_list = [
+  {
+    "key": "react-portfolio",
+    "title": "ReactJS Portfolio (This Site)",
+    "description": "Professional portfolio using ReactJS and ExpressJS",
+    "link": "https://github.com/thinkbui/umn-edx-react-portfolio",
+    "image": example_list_react_portfolio_img,
+    "deployed_link": "https://thinkbui.herokuapp.com/",
+  },
   {
     "key": "pwa-text-editor",
     "title": "Progressive Web Application Text Editor",
