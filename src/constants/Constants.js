@@ -5,6 +5,7 @@
 
 import headshot from "./../img/Header/headshot.jpeg";
 import about_me_headshot from "./../img/Main/AboutMe/headshot.jpeg";
+import example_list_express_note_taker_img from "./../img/Main/Portfolio/express-note-taker.png";
 import example_list_live_events_img from "./../img/Main/Portfolio/live-events-api.png";
 import example_list_weather_dashboard_img from "./../img/Main/Portfolio/weather-dashboard.png";
 import example_list_workday_scheduler_img from "./../img/Main/Portfolio/workday-scheduler.png";
@@ -56,6 +57,14 @@ export const about_me_bio = [
 ];
 
 export const examples_list = [
+  {
+    "key": "express-note-taker",
+    "title": "Express Note Taker",
+    "description": "Web-based app to create any number of notes for future reference using a crude JSON database",
+    "link": "https://github.com/thinkbui/umn-edx-express-note-taker",
+    "image": example_list_express_note_taker_img,
+    "deployed_link": "https://pure-thicket-80004.herokuapp.com/",
+  },
   {
     "key": "svg-logo-maker",
     "title": "SVG Logo Maker",
