@@ -117,6 +117,10 @@ section h2 {
   font-size: 60px;
 }
 
+#portfolio .content .card:first-child .example_main_link .example-code-desc {
+  font-size: 30px;
+}
+
 #portfolio .content .card .example_deployed_link {
   color: var(--maroon);
   transition: text-shadow 1s ease;
