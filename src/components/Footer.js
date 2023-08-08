@@ -5,7 +5,7 @@ function Footer(props) {
     <footer>
       <div className="heading">
         <ul className="profile_links">
-          {contact_options.map((option) => <li key={option.key}><a href={option.href}>{option.title}</a></li>)}
+          {contact_options.map((option) => <li key={option.key}><a href={option.href} target="_blank" rel="noopener noreferrer">{option.title}</a></li>)}
         </ul>
       </div>
       <p>
