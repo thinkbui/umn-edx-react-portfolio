@@ -10,9 +10,9 @@ function Resume(props) {
         <div className="resume_content">
           {resume_content.map((paragraph) => <p key={paragraph.key} className="trail_space">{paragraph.content}</p>)}
         </div>
-        <div className="resume_link">
+        {/* <div className="resume_link">
           <a href={resume_link.link} target="_blank">{resume_link.text}</a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
