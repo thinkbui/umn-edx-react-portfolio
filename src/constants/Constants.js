@@ -199,23 +199,39 @@ export const examples_list = [
 export const resume_content = [
   {
     "key": "line0",
-    "content": "I have 4+ years of professional experience with Ruby on Rails in an Agile environment."
+    "content": "Most recently I've completed a web development bootcamp with a special focus on the MERN Stack.  It is knowledge from this experience that I am primarily looking to leverage in my future endeavors."
   },
   {
     "key": "line1",
-    "content": "I have 4+ years of professional experience with AngularJS."
+    "content": "I've previously worked as a software developer for WebVolta, a software development shop based in Minneapolis, MN, to update one of their major client's internal purchasing system built on Ruby on Rails with new features to assist with decision-making."
   },
   {
     "key": "line2",
-    "content": "I have 7+ years of professional experience with different flavors of SQL."
+    "content": "Before that I worked as a software developer for Municipal Parking Services, a smart parking company based in Minnetonka, MN, mainly to maintain and update the webserver application that manages communication between all of the smart meters and kiosks, but was also responsible for other projects including a live view used by partner municipalities that also includes report generation, building new documentation warehouses and migrating to them, and helping architect how the system embedded in the meters/kiosks perform some functions to coordinate with other components of the overall system."
   },
   {
     "key": "line3",
-    "content": "I've recently completed a bootcamp for the MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS)."
+    "content": "I've also spent time working as a software quality assurance analyst at the National Marrow Donor Program (commonly referred to as \"Be the Match\") heavily focused on different projects involving Oracle SQL Developer and Microsoft SQL Server as multiple organizations within NMDP worked to migrate donor and patient data among other information to newer systems and data warehouses."
   },
   {
-    "key": "line4",
-    "content": "My resume is not currently available at this location.  Please visit my LinkedIn profile in the meantime.",
+    "key": "line10",
+    "content": "I have 4+ years of professional experience with Ruby on Rails in an Agile environment."
+  },
+  {
+    "key": "line11",
+    "content": "I have 4+ years of professional experience with AngularJS."
+  },
+  {
+    "key": "line12",
+    "content": "I have 7+ years of professional experience with different flavors of SQL."
+  },
+  {
+    "key": "line13",
+    "content": "Again I've recently completed a bootcamp for the MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS)."
+  },
+  {
+    "key": "line14",
+    "content": "For my resume, please refer to my job application materials or reach out to me on LinkedIn for new job opportunities.",
   }
 ]
 
