@@ -66,7 +66,7 @@ export const examples_list = [
     "key": "trail-blazers",
     "title": "Trail-Blazers (Group Project)",
     "description": "Hiking trail finder and tracker using the MERN Stack",
-    "tech": "MERN Stack (MongoDB, ExpressJS, ReactJS, and NodeJS)",
+    "tech": "MERN Stack (MongoDB, ExpressJS, ReactJS, and NodeJS) and Bootstrap for React",
     "link": "https://github.com/Moe1401/hiking-guide",
     "image": example_list_trail_blazers_img,
     "deployed_link": "https://trail-blazerz.herokuapp.com/",

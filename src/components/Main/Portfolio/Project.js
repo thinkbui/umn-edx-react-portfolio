@@ -17,7 +17,11 @@ function Project(props) {
         <div className="example-code">
           <h3>{props.example.title}</h3>
           <div className="example-code-desc">{props.example.description}</div>
-          <div className="example-code-tech">{props.example.tech}</div>
+          <div className="example-code-tech">
+            { props.example.tech ?
+              `TECHNOLOGIES: ${props.example.tech}` : ""
+            }
+          </div>
         </div>
       </a>
       {
