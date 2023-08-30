@@ -13,6 +13,8 @@ import example_list_tindog_img from "./../img/Main/Portfolio/tindog.png";
 import example_list_orm_e_commerce_back_end_img from "./../img/Main/Portfolio/umn-edx-orm-e-commerce-back-end.jpg";
 import example_list_employee_tracker_img from "./../img/Main/Portfolio/umn-edx-employee-tracker.jpg";
 import example_list_express_note_taker_img from "./../img/Main/Portfolio/express-note-taker.png";
+import example_list_svg_logo_maker_img from "./../img/Main/Portfolio/umn-edx-svg-logo-maker.svg";
+import example_list_generate_readme_img from "./../img/Main/Portfolio/umn-edx-generate-readme.jpg";
 import example_list_live_events_img from "./../img/Main/Portfolio/live-events-api.png";
 import example_list_weather_dashboard_img from "./../img/Main/Portfolio/weather-dashboard.png";
 import example_list_workday_scheduler_img from "./../img/Main/Portfolio/workday-scheduler.png";
@@ -102,7 +104,7 @@ export const examples_list = [
   },
   {
     "key": "regex-tutorial",
-    "title": "Javascript Regex Tutorial",
+    "title": "JavaScript Regex Tutorial",
     "description": "Quick reference I made for myself about Regular Expressions",
     "tech": "Regular Expressions",
     "link": "https://gist.github.com/thinkbui/7b5644fde9fd9a420b42e8832d645132",
@@ -145,21 +147,23 @@ export const examples_list = [
     "key": "svg-logo-maker",
     "title": "SVG Logo Maker",
     "description": "CLI app to generate a simple logo for web use",
-    "tech": "",
+    "tech": "NodeJS, fs, and Inquirer",
     "link": "https://github.com/thinkbui/umn-edx-svg-logo-maker",
+    "image": example_list_svg_logo_maker_img,
   },
   {
     "key": "generate-readme",
     "title": "Generate Readme",
     "description": "CLI app to build a readme file for GitHub repositories",
-    "tech": "",
+    "tech": "NodeJS, fs, and Inquirer",
     "link": "https://github.com/thinkbui/umn-edx-generate-readme",
+    "image": example_list_generate_readme_img,
   },
   {
     "key": "live-events",
     "title": "Live Events Search (Group Project)",
     "description": "Simple search to find local events within a city and date range",
-    "tech": "",
+    "tech": "HTML/CSS, JavaScript, localStorage, and API consumption",
     "link": "https://github.com/JacobDNelsonStone/live-music-search-ticketmaster-api",
     "image": example_list_live_events_img,
     "deployed_link": "https://jacobdnelsonstone.github.io/live-music-search-ticketmaster-api/",
@@ -168,7 +172,7 @@ export const examples_list = [
     "key": "weather-dashboard",
     "title": "Weather Dashboard",
     "description": "Display the current conditions and a 5-day forecast for many major cities",
-    "tech": "",
+    "tech": "HTML/CSS, JavaScript, and API consumption",
     "link": "https://github.com/thinkbui/umn-edx-weather-dashboard",
     "image": example_list_weather_dashboard_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-weather-dashboard/",
@@ -177,7 +181,7 @@ export const examples_list = [
     "key": "workday-scheduler",
     "title": "Workday Scheduler",
     "description": "Web-based daily agenda maker using Local Storage",
-    "tech": "",
+    "tech": "HTML/CSS, JavaScript, and localStorage",
     "link": "https://github.com/thinkbui/umn-edx-work-day-scheduler",
     "image": example_list_workday_scheduler_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-work-day-scheduler/",
@@ -186,7 +190,7 @@ export const examples_list = [
     "key": "timed-quiz",
     "title": "Timed Quiz",
     "description": "Basic web quiz using a JS clock and Local Storage to store high scores",
-    "tech": "",
+    "tech": "HTML/CSS, JavaScript, and localStorage",
     "link": "https://github.com/thinkbui/umn-edx-timed-quiz",
     "image": example_list_timed_quiz_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-timed-quiz/",
@@ -195,7 +199,7 @@ export const examples_list = [
     "key": "password-generator",
     "title": "Password Generator",
     "description": "Simple web-based password generator where options selected through JS prompts",
-    "tech": "",
+    "tech": "HTMl/CSS and JavaScript",
     "link": "https://github.com/thinkbui/umn-edx-password-generator",
     "image": example_list_password_generator_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-password-generator/",
@@ -204,7 +208,7 @@ export const examples_list = [
     "key": "professional-portfolio",
     "title": "Professional Portfolio",
     "description": "Early version of this online portfolio using only HTML/CSS",
-    "tech": "",
+    "tech": "HTML/CSS",
     "link": "https://github.com/thinkbui/umn-edx-professional-portfolio",
     "image": example_list_professional_portfolio_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-professional-portfolio/",
@@ -213,7 +217,7 @@ export const examples_list = [
     "key": "refactor",
     "title": "Refactor Challenge",
     "description": "Update of existing webpage to use semantic HTML",
-    "tech": "",
+    "tech": "HTML/CSS",
     "link": "https://github.com/thinkbui/umn-edx-module-1-challenge-code-refactor",
     "image": example_list_refactor_challenge_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-module-1-challenge-code-refactor/",
