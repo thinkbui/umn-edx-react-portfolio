@@ -104,7 +104,7 @@ export const examples_list = [
   },
   {
     "key": "regex-tutorial",
-    "title": "Javascript Regex Tutorial",
+    "title": "JavaScript Regex Tutorial",
     "description": "Quick reference I made for myself about Regular Expressions",
     "tech": "Regular Expressions",
     "link": "https://gist.github.com/thinkbui/7b5644fde9fd9a420b42e8832d645132",
