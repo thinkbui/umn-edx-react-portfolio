@@ -179,13 +179,13 @@ section h2 {
   transition: opacity 1s ease;
 }
 
-.example_main_link h3{
+/*.example_main_link h3{
   transition: box-shadow 1s ease;
 }
 
 .example_main_link:hover h3 {
   box-shadow: 0 0 20px var(--maroon);
-}
+}*/
 
 .card-no-link {
   color: var(--maroon);
