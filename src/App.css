@@ -134,6 +134,14 @@ section h2 {
   text-shadow: 0 0 10px var(--maroon);
 }
 
+#portfolio .content .card .example_main_link:hover .example-code-desc {
+  opacity: 1;
+}
+
+#portfolio .content .card .example_main_link:hover .example-code-tech {
+  opacity: 1;
+}
+
 #portfolio .content {
   display: flex;
   flex-direction: row;
@@ -160,11 +168,15 @@ section h2 {
 .example-code-desc {
   color: var(--maroon);
   background-color: var(--gold);
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 .example-code-tech {
   color: var(--gold);
   background-color: var(--maroon);
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 .example_main_link h3{
