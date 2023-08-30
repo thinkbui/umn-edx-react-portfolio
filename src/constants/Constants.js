@@ -8,7 +8,10 @@ import about_me_headshot from "./../img/Main/AboutMe/headshot.jpeg";
 import example_list_trail_blazers_img from "./../img/Main/Portfolio/trail-blazers.png";
 import example_list_react_portfolio_img from "./../img/Main/Portfolio/react-portfolio.png";
 import example_list_pwa_text_editor_img from "./../img/Main/Portfolio/pwa-text-editor.png";
+import example_list_nosql_social_network_api_img from "./../img/Main/Portfolio/umn-edx-nosql-social-network-api.jpg";
 import example_list_tindog_img from "./../img/Main/Portfolio/tindog.png";
+import example_list_orm_e_commerce_back_end_img from "./../img/Main/Portfolio/umn-edx-orm-e-commerce-back-end.jpg";
+import example_list_employee_tracker_img from "./../img/Main/Portfolio/umn-edx-employee-tracker.jpg";
 import example_list_express_note_taker_img from "./../img/Main/Portfolio/express-note-taker.png";
 import example_list_live_events_img from "./../img/Main/Portfolio/live-events-api.png";
 import example_list_weather_dashboard_img from "./../img/Main/Portfolio/weather-dashboard.png";
@@ -84,7 +87,7 @@ export const examples_list = [
     "key": "pwa-text-editor",
     "title": "PWA Text Editor",
     "description": "Brief study of Progressive Web Applications completing code for a text editor that can function offline",
-    "tech": "ExpressJS",
+    "tech": "NodeJS and ExpressJS",
     "link": "https://github.com/thinkbui/umn-edx-progressive-web-applications-text-editor",
     "image": example_list_pwa_text_editor_img,
     "deployed_link": "https://umn-edx-pwa-text-editor.herokuapp.com/",
@@ -93,21 +96,22 @@ export const examples_list = [
     "key": "nosql-social-network-api",
     "title": "NoSQL Social Network API",
     "description": "Web API to manage activity on a social network using MongoDB",
-    "tech": "",
+    "tech": "NodeJS, ExpressJS, MongoDB, Mongoose, and DayJS",
     "link": "https://github.com/thinkbui/umn-edx-nosql-social-network-api",
+    "image": example_list_nosql_social_network_api_img,
   },
   {
     "key": "regex-tutorial",
     "title": "Javascript Regex Tutorial",
     "description": "Quick reference I made for myself about Regular Expressions",
-    "tech": "",
+    "tech": "Regular Expressions",
     "link": "https://gist.github.com/thinkbui/7b5644fde9fd9a420b42e8832d645132",
   },
   {
     "key": "tindog",
     "title": "TinDog (Group Project)",
     "description": "Dog breed matching and adoption app using ExpressJS, Handlebars, and Sequelize",
-    "tech": "",
+    "tech": "NodeJS, ExpressJS, Handlebars, MySQL2, Sequelize, and bcrypt",
     "link": "https://github.com/YockaFlocka/tindog",
     "image": example_list_tindog_img,
     "deployed_link": "https://github.com/YockaFlocka/tindog",
@@ -116,21 +120,23 @@ export const examples_list = [
     "key": "e-commerce-back-end",
     "title": "E-Commerce Back End",
     "description": "Web API to manage inventory for an online retailer using Sequelize",
-    "tech": "",
+    "tech": "NodeJS, ExpressJS, MySQL2, and Sequelize",
     "link": "https://github.com/thinkbui/umn-edx-orm-e-commerce-back-end",
+    "image": example_list_orm_e_commerce_back_end_img,
   },
   {
     "key": "employee-traker",
     "title": "Employee Tracker",
     "description": "CLI app to manage employee information including department, role, and hierarchy using MySQL2",
-    "tech": "",
+    "tech": "NodeJS, Inquirer, MySQL2, and console.table",
     "link": "https://github.com/thinkbui/umn-edx-employee-tracker",
+    "image": example_list_employee_tracker_img,
   },
   {
     "key": "express-note-taker",
     "title": "Express Note Taker",
     "description": "Web-based app to create any number of notes for future reference using a crude JSON database",
-    "tech": "",
+    "tech": "NodeJS and ExpressJS",
     "link": "https://github.com/thinkbui/umn-edx-express-note-taker",
     "image": example_list_express_note_taker_img,
     "deployed_link": "https://pure-thicket-80004.herokuapp.com/",
