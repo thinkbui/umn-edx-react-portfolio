@@ -75,6 +75,7 @@ export const examples_list = [
     "link": "https://github.com/Moe1401/hiking-guide",
     "image": example_list_trail_blazers_img,
     "deployed_link": "https://trail-blazerz.herokuapp.com/",
+    "decommissioned": true,
   },
   {
     "key": "react-portfolio",
@@ -117,6 +118,7 @@ export const examples_list = [
     "link": "https://github.com/YockaFlocka/tindog",
     "image": example_list_tindog_img,
     "deployed_link": "https://github.com/YockaFlocka/tindog",
+    "decommissioned": true,
   },
   {
     "key": "e-commerce-back-end",

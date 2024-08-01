@@ -25,17 +25,21 @@ function Project(props) {
         </div>
       </a>
       {
-        props.example.deployed_link ?
-          <a
-            href={props.example.deployed_link}
-            className="example_deployed_link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            🚀 View Deployed App
-          </a>
-        :
-          <p className="card-no-link">(not deployed)</p>
+        props.example.decommissioned ? (
+          <p className="card-no-link">(decommissioned)</p>
+        ) : (
+          props.example.deployed_link ?
+            <a
+              href={props.example.deployed_link}
+              className="example_deployed_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🚀 View Deployed App
+            </a>
+          :
+            <p className="card-no-link">(not deployed)</p>
+        )
       }
     </div>
   );
