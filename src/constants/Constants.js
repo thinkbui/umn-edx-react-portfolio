@@ -298,4 +298,4 @@ export const contact_options = [
   // },
 ];
 
-export const footer_text = "Ian Bui 2023";
+export const footer_text = "Ian Bui 2024";
