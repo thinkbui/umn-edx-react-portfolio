@@ -143,7 +143,7 @@ export const examples_list = [
     "tech": "NodeJS and ExpressJS",
     "link": "https://github.com/thinkbui/umn-edx-express-note-taker",
     "image": example_list_express_note_taker_img,
-    "deployed_link": "https://pure-thicket-80004.herokuapp.com/",
+    "deployed_link": "https://umn-edx-express-note-taker.herokuapp.com/",
   },
   {
     "key": "svg-logo-maker",
