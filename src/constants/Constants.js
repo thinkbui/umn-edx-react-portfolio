@@ -22,6 +22,7 @@ import example_list_timed_quiz_img from "./../img/Main/Portfolio/timed-quiz.png"
 import example_list_password_generator_img from "./../img/Main/Portfolio/password-generator.png";
 import example_list_professional_portfolio_img from "./../img/Main/Portfolio/professional-portfolio.png";
 import example_list_refactor_challenge_img from "./../img/Main/Portfolio/refactor-challenge.png";
+import example_list_other_code_examples_img from "./../img/Main/Portfolio/code_examples.png";
 
 export const headshot_src = headshot;
 
@@ -223,6 +224,14 @@ export const examples_list = [
     "link": "https://github.com/thinkbui/umn-edx-module-1-challenge-code-refactor",
     "image": example_list_refactor_challenge_img,
     "deployed_link": "https://thinkbui.github.io/umn-edx-module-1-challenge-code-refactor/",
+  },
+  {
+    "key": "other-examples",
+    "title": "Additional Code Examples",
+    "description": "These code examples were constructed for personal use and unrelated to this portfolio, but they can offer additional insight into my abilities as a software developer.",
+    "tech": "HTML/CSS, JavaScript, and more as I add them",
+    "link": "http://thinkbui.github.io/",
+    "image": example_list_other_code_examples_img,
   },
 ];
 
