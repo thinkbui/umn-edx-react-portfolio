@@ -38,7 +38,7 @@ function Project(props) {
               🚀 View Deployed App
             </a>
           :
-            <p className="card-no-link">(not deployed)</p>
+            <p className="card-no-link">&nbsp;</p>
         )
       }
     </div>
